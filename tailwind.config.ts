@@ -15,11 +15,14 @@ const config: Config = {
       },
     },
     screens: {
-      'sm': '360px',
+      'nn': '0px',
+      'sm': '640px',
       'md': '768px',
       'lg': '1024px',
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }
 export default config
