@@ -23,15 +23,23 @@ body {
       transparent,
       rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
   overflow-x: hidden;
+
   html {
     -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;}
-    *,
-    *::before,
-    *::after {
-        -webkit-box-sizing: inherit;
-           -moz-box-sizing: inherit;
-                box-sizing: inherit;
-    }
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  *,
+  *::before,
+  *::after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+  }
+
+  @media screen and (min-width: 1366px) {
+    margin-left: 28%;
+    margin-right: 28%;
+  }
 }

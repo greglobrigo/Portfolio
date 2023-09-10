@@ -17,7 +17,7 @@ export function Navbar() {
             link: "/projects"
         },
         {
-            name: "Download CV",
+            name: "Resume",
             link: "/download-cv"
         }
     ]
@@ -41,7 +41,7 @@ export function Navbar() {
 
     return (
         <>
-            <nav className="flex h-20">
+            <nav className="flex h-[10vh]">
                 <div className="flex w-full nn:pl-8 sm:pl-16 my-auto">
                     <div className="flex">
                         <h1 className="xs:text-xl sm:text-4xl font-extrabold">Greg.<span className="xs:text-sm sm:text-xl font-semibold">dev</span></h1>
