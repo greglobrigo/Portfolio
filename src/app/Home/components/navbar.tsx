@@ -78,18 +78,19 @@ export function Navbar() {
 
                 <div onClick={() => setNavOpen(!navOpen)}
                     className="nn:block lg:hidden xs:px-1 xs:mx-6 sm:px-2 sm:mx-8 hover:cursor-pointer border rounded-md my-auto">
-                    <div className="w-10 h-1 bg-black my-2"></div>
-                    <div className="w-10 h-1 bg-black my-2"></div>
-                    <div className="w-10 h-1 bg-black my-2"></div>
+                    <div className={`w-10 h-1 my-2 ${darkMode ? 'bg-white' : 'bg-black'}`}></div>
+                    <div className={`w-10 h-1 my-2 ${darkMode ? 'bg-white' : 'bg-black'}`}></div>
+                    <div className={`w-10 h-1 my-2 ${darkMode ? 'bg-white' : 'bg-black'}`}></div>
                 </div>
 
 
                 {navOpen && <div
-                    className="lg:hidden w-1/2 h-full absolute top-0 right-0 z-10 bg-white rounded-md shadow-md animate-slideInRight">
+                    className={`lg:hidden w-1/2 h-full absolute top-0 right-0 z-10 ${darkMode ? 'bg-black' : 'bg-white'} rounded-md shadow-md animate-slideInRight`}>
                     <ul className="flex flex-col">
                         {navItems.map((item, index) => {
                             return (
-                                <li key={index} className="xs:text-lg sm:text-xl mx-auto my-8 font-semibold px-4 hover:cursor-pointer rounded-xl hover:bg-black hover:text-white">
+                                <li key={index} className={`xs:text-lg sm:text-xl mx-auto my-8 font-semibold px-4 hover:cursor-pointer rounded-xl
+                                 ${darkMode ? 'hover:bg-white hover:text-black' : 'hover:bg-black hover:text-white'}`}>
                                     <a
                                     // href={item.link}
                                     >
@@ -106,7 +107,7 @@ export function Navbar() {
                     <ul className="flex justify-around">
                         {navItems.map((item, index) => {
                             return (
-                                <li key={index} className="text-xl font-semibold px-4 hover:cursor-pointer rounded-xl hover:bg-black hover:text-white transition duration-300">
+                                <li key={index} className={`text-xl font-semibold px-4 hover:cursor-pointer rounded-xl ${darkMode ? 'hover:bg-white hover:text-black' : 'hover:bg-black hover:text-white'}`}>
                                     <a
                                     // href={item.link}
                                     >
