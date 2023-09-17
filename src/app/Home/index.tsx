@@ -1,6 +1,5 @@
 "use client"
-
-import { Navbar } from "./components/navbar";
+import Navbar  from "./components/navbar/navbar";
 import { useState, useRef, useEffect } from 'react'
 import { Fade } from 'react-awesome-reveal'
 
