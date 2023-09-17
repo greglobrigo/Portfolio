@@ -21,9 +21,9 @@ export default function Home() {
                     <p>
                         I&apos;m a software engineer with a passion for building products that
                         <span className="gradient__text2"> make a difference. </span>
-                        Leveraged with the power of <span className="gradient__text2">AI</span>
-                        , and with the experiences I&apos;ve had, I&apos;m able to
-                        <span className="gradient__text2"> solve problems</span> with
+                        I like keeping up with the latest technologies including <span className="gradient__text2">AI </span>
+                        and enjoy
+                        <span className="gradient__text2"> solving problems</span> with
                         <span className="gradient__text2"> creativity</span> and
                         <span className="gradient__text2"> efficiency</span>.
                     </p>
@@ -36,7 +36,7 @@ export default function Home() {
                     <div className="header-content__links">
                         <a href="https://github.com/greglobrigo"
                             target="_blank" rel="noopener noreferrer">
-                            <FaGithub size={30} color="#4078c0"/>
+                            <FaGithub size={30} color="#4078c0" />
                         </a>
                         <a href="https://www.linkedin.com/in/greglobrigo/"
                             target="_blank" rel="noopener noreferrer">
