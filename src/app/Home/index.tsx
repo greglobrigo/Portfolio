@@ -1,7 +1,6 @@
 "use client"
 import Navbar from "./components/navbar/navbar";
 import './home.css';
-import Image from 'next/image'
 import { Fade } from 'react-awesome-reveal'
 import { FaGithub } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
@@ -17,7 +16,7 @@ export default function Home() {
             <Navbar />
             <div className="gpt3__header section__padding" id="home">
                 <div className="gpt3__header-content">
-                    <h1 className="gradient__text">Hello, I'm Greg. Let&apos;s Build Something amazing.</h1>
+                    <h1 className="gradient__text">Hello, I'm Greg. <br/>Let&apos;s Build Something amazing.</h1>
                     <p>
                         I&apos;m a software engineer with a passion for building products that
                         <span className="gradient__text2"> make a difference. </span>
@@ -58,8 +57,7 @@ export default function Home() {
                 </div>
 
                 <div className="gpt3__header-image">
-                    <Image src="/github-copilot.png" width={500} height={500}
-                        alt='copilot' />
+                    <img src="/github-copilot.png" alt='copilot' />
                 </div>
             </div>
         </>

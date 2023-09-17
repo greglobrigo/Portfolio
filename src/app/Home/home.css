@@ -23,7 +23,7 @@
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 62px;
-    line-height: 75px;
+    line-height: 80px;
     letter-spacing: -0.04em;
 }
 
@@ -108,8 +108,7 @@
 }
 
 .gpt3__header-image img {
-    width: 70%;
-    height: 100%;
+    object-fit: contain;
 }
 
 .header-content__links {
