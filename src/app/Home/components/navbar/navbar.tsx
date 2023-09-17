@@ -10,7 +10,7 @@ export default function Navbar () {
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_logo">
-          <h2>glxd</h2>
+          <h1>glxd</h1>
         </div>
         <div className="gpt3__navbar-links_container">
           <p><a href="#home">Home</a></p>
