@@ -56,7 +56,8 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="gpt3__header-image">
+                <div className="gpt3__header-image flex-col">
+                    <h1 className="caption gradient__text">Github Copilot</h1>
                     <img src="/github-copilot.png" alt='copilot' />
                 </div>
             </div>

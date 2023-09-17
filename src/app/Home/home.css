@@ -27,6 +27,14 @@
     letter-spacing: -0.04em;
 }
 
+.caption {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 80px;
+    letter-spacing: -0.04em;
+}
+
 .gpt3__header-content p {
     font-family: var(--font-family);
     font-weight: 400;
