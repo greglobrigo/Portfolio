@@ -50,6 +50,10 @@ export default function Home() {
                             target="_blank" rel="noopener noreferrer">
                             <FaTwitter size={30} color="#4078c0" />
                         </a>
+                        <a href="https://discord.com/users/274211616457883648"
+                            target="_blank" rel="noopener noreferrer">
+                            <FaDiscord size={30} color="#4078c0" />
+                        </a>
                     </div>
                 </div>
 
