@@ -1,16 +1,25 @@
 #about {
-    height: 100vh;
+    height: 90vh;
     width: 100%;
 }
 
-.gradient__text {
-    background: var(--gradient-text);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+
+.gpt3__header {
+    display: flex;
+    flex-direction: row;
 }
 
-#about h1 {
+.gpt3__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-right: 5rem;
+}
+
+.gpt3__header-content h1 {
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 62px;
@@ -18,7 +27,15 @@
     letter-spacing: -0.04em;
 }
 
-#about p {
+.caption {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 80px;
+    letter-spacing: -0.04em;
+}
+
+.gpt3__header-content p {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 20px;
@@ -28,8 +45,91 @@
     margin-top: 1.5rem;
 }
 
+.gpt3__header-content__input {
+    width: 100%;
+    margin: 2rem 0 1rem;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.cta__header-content__button {
+    margin: 0 1rem;
+}
+
+.gpt3__header-content__input .button1 {
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    background: transparent;
+    border: 2px solid #FF4820;
+    padding: 0 1rem;
+    color: #FF4820;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.gpt3__header-content__input .button1:hover {
+    color: #fff;
+    background: #FF4820;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2), 0px 0px 10px rgba(255, 72, 32, 0.5), 0px 0px 20px rgba(255, 72, 32, 0.2), 0px 0px 30px rgba(255, 72, 32, 0.1);
+    transition-delay: 0.1s;
+}
+
+.gpt3__header-content__input .button2 {
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    background: #FF4820;
+    border: 2px solid #FF4820;
+    padding: 0 1rem;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.gpt3__header-content__input .button2:hover {
+    color: #20ff6780;
+    background: transparent;
+    border: 2px solid #20ff6780;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2), 0px 0px 10px #20ff6780, 0px 0px 20px rgba(255, 72, 32, 0.2), 0px 0px 30px rgba(255, 72, 32, 0.1);
+    transition-delay: 0.1s;
+}
+
+.gpt3__header-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gpt3__header-image img {
+    object-fit: contain;
+}
+
+.header-content__links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 1rem;
+    width: 100%;
+}
+
 @media screen and (max-width: 1050px) {
-    #about {
+    .gpt3__header {
         flex-direction: column;
     }
 
@@ -39,34 +139,34 @@
 }
 
 @media screen and (max-width: 650px) {
-    #about h1 {
+    .gpt3__header-content h1 {
         font-size: 48px;
         line-height: 60px;
     }
 
-    #about p {
+    .gpt3__header-content p {
         font-size: 16px;
         line-height: 24px;
     }
 
-    #about button {
+    .gpt3__header-content__input button {
         font-size: 16px;
         line-height: 24px;
     }
 }
 
 @media screen and (max-width: 490px) {
-    #about h1 {
+    .gpt3__header-content h1 {
         font-size: 36px;
         line-height: 48px;
     }
 
-    #about p {
+    .gpt3__header-content p {
         font-size: 14px;
         line-height: 24px;
     }
 
-    #about button {
+    .gpt3__header-content__input button {
         font-size: 12px;
         line-height: 16px;
     }

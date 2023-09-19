@@ -19,7 +19,7 @@ export default function Home() {
                     <h1 className="gradient__text">Hello, I'm Greg. <br/>Let&apos;s Build Something amazing.</h1>
                     <p>
                         I&apos;m a software engineer with a passion for building products that
-                        <span className="gradient__text2"> make a difference. </span>
+                        <span className="gradient__text2"> make a difference. </span><br/>
                         I like keeping up with the latest technologies including <span className="gradient__text2">AI </span>
                         and enjoy
                         <span className="gradient__text2"> solving problems</span> with
