@@ -14,8 +14,8 @@ export default function Home() {
     return (
         <>
             <Navbar />
-            <div className="gpt3__header section__padding" id="home">
-                <div className="gpt3__header-content">
+            <div className="home__header section__padding" id="home">
+                <div className="home__header-content">
                     <h1 className="gradient__text">Hello, I'm Greg. <br/>Let&apos;s Build Something amazing.</h1>
                     <p>
                         I&apos;m a software engineer with a passion for building products that
@@ -27,7 +27,7 @@ export default function Home() {
                         <span className="gradient__text2"> efficiency</span>.
                     </p>
 
-                    <div className="gpt3__header-content__input">
+                    <div className="home__header-content__input">
                         <button className="cta__header-content__button button1" type="button">Learn More</button>
                         <button className="cta__header-content__button button2" type="button">Hire Me</button>
                     </div>
@@ -56,7 +56,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="gpt3__header-image flex-col">
+                <div className="home__header-image flex-col">
                     <h1 className="caption gradient__text">Github Copilot</h1>
                     <img src="/github-copilot.png" alt='copilot' />
                 </div>

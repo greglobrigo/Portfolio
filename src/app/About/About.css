@@ -1,15 +1,13 @@
 #about {
-    height: 90vh;
+    height: 100vh;
     width: 100%;
 }
 
-
-.gpt3__header {
+.about__header {
     display: flex;
-    flex-direction: row;
 }
 
-.gpt3__header-content {
+.about__header-content {
     flex: 1;
     display: flex;
     justify-content: center;
@@ -19,7 +17,7 @@
     margin-right: 5rem;
 }
 
-.gpt3__header-content h1 {
+.about__header-content h1 {
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 62px;
@@ -35,7 +33,7 @@
     letter-spacing: -0.04em;
 }
 
-.gpt3__header-content p {
+.about__header-content p {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 20px;
@@ -45,7 +43,7 @@
     margin-top: 1.5rem;
 }
 
-.gpt3__header-content__input {
+.about__header-content__input {
     width: 100%;
     margin: 2rem 0 1rem;
 
@@ -57,7 +55,7 @@
     margin: 0 1rem;
 }
 
-.gpt3__header-content__input .button1 {
+.about__header-content__input .button1 {
     flex: 0.6;
     width: 100%;
     min-height: 50px;
@@ -75,14 +73,14 @@
     transition: all 0.3s ease-in-out;
 }
 
-.gpt3__header-content__input .button1:hover {
+.about__header-content__input .button1:hover {
     color: #fff;
     background: #FF4820;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2), 0px 0px 10px rgba(255, 72, 32, 0.5), 0px 0px 20px rgba(255, 72, 32, 0.2), 0px 0px 30px rgba(255, 72, 32, 0.1);
     transition-delay: 0.1s;
 }
 
-.gpt3__header-content__input .button2 {
+.about__header-content__input .button2 {
     flex: 0.6;
     width: 100%;
     min-height: 50px;
@@ -100,7 +98,7 @@
     transition: all 0.3s ease-in-out;
 }
 
-.gpt3__header-content__input .button2:hover {
+.about__header-content__input .button2:hover {
     color: #20ff6780;
     background: transparent;
     border: 2px solid #20ff6780;
@@ -108,15 +106,19 @@
     transition-delay: 0.1s;
 }
 
-.gpt3__header-image {
-    flex: 1;
+.about__header-image .aws {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
 
-.gpt3__header-image img {
+.about__header-image {
+    flex: 1;
     object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-content__links {
@@ -129,44 +131,44 @@
 }
 
 @media screen and (max-width: 1050px) {
-    .gpt3__header {
+    .about__header {
         flex-direction: column;
     }
 
-    .gpt3__header-content {
+    .about__header-content {
         margin: 0 0 3rem;
     }
 }
 
 @media screen and (max-width: 650px) {
-    .gpt3__header-content h1 {
+    .about__header-content h1 {
         font-size: 48px;
         line-height: 60px;
     }
 
-    .gpt3__header-content p {
+    .about__header-content p {
         font-size: 16px;
         line-height: 24px;
     }
 
-    .gpt3__header-content__input button {
+    .about__header-content__input button {
         font-size: 16px;
         line-height: 24px;
     }
 }
 
 @media screen and (max-width: 490px) {
-    .gpt3__header-content h1 {
+    .about__header-content h1 {
         font-size: 36px;
         line-height: 48px;
     }
 
-    .gpt3__header-content p {
+    .about__header-content p {
         font-size: 14px;
         line-height: 24px;
     }
 
-    .gpt3__header-content__input button {
+    .about__header-content__input button {
         font-size: 12px;
         line-height: 16px;
     }

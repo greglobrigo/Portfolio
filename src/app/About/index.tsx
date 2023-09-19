@@ -3,8 +3,8 @@ import './About.css'
 export default function About() {
     return (
         <>
-            <div className="gpt3__header section__padding" id="about">
-                <div className="gpt3__header-content">
+            <div className="about__header section__padding" id="about">
+                <div className="about__header-content">
                     <h1 className="gradient__text">About me</h1>
                     <p className="text-2xl font-semibold">
                         I have a bachelor's degree in <span className="gradient__text2">Business and Finance</span>
@@ -22,9 +22,9 @@ export default function About() {
                     </p>
                 </div>
 
-                <div className="gpt3__header-image flex-col">
-                    <div className="flex gap-4">
-                        <div className="w-[450px] h-[600px] bg-[#3d71df] rounded-lg shadow-lg">
+                <div className="about__header-image">
+                    <div>
+                        <div className="w-[450px] h-[600px] bg-[#3d71df] rounded-lg shadow-lg aws">
                             <img className="w-auto h-auto opacity-80" src="/aws.jpg" alt="greg" />
                         </div>
                     </div>
