@@ -27,6 +27,9 @@ export default function About() {
                         <div className="w-[450px] h-[600px] bg-[#3d71df] rounded-lg shadow-lg aws">
                             <img className="w-auto h-auto opacity-80" src="/aws.jpg" alt="greg" />
                         </div>
+                        <div className="flex justify-center items-center pt-8">
+                        <p className="text-xl font-semibold gradient__text">AWS Training</p>
+                        </div>
                     </div>
                 </div>
             </div>
