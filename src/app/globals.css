@@ -8,6 +8,7 @@
 
   --gradient-text: linear-gradient(89.97deg, #19e8e2 1.84%, #3d71df 102.67%);
   --gradient-text2: linear-gradient(89.97deg, #81AFDD 1.84%, #60ec14 102.67%);
+  --gradient-text3: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
   --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
   --color-bg: #040C18;
   --color-footer : #031B34;
@@ -59,6 +60,13 @@ a {
 
 .gradient__text2 {
   background: var(--gradient-text2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient__text3 {
+  background: var(--gradient-text3);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
