@@ -58,7 +58,7 @@ export default function Home() {
 
                 <div className="home__header-image flex-col">
                     <h1 className="caption gradient__text">Github Copilot</h1>
-                    <div className="home__header-image__img">
+                    <div className="card">
                         <img src="/github-copilot.png" alt='copilot' />
                     </div>
                 </div>
