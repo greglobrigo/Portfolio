@@ -13,12 +13,12 @@ export default function Skills() {
                         <li>
                             <div className='flex items-center gap-4'>
                                 <h2 className="gradient__text2">
-                                    Javascript / TypeScript
+                                    Javascript / Typescript
                                 </h2>
                                 <img className="w-[50px] h-[50px]" src="/typescript.png" alt="ts" />
                             </div>
-                            <p>
-                                I have been using Javascript for 3 years now. I have used it to build websites, web apps, and microservices together with Node.
+                            <p className='pb-4'>
+                                I have been using Javascript for 3 years, Typescript for 2. I have used it to build websites, web apps, and microservices together with Node.
                                 Javascript is my strongest language, and if ever I'm given a problem that needs to be expressed in code, I'd use Javascript. You can check my
                                 <span className="gradient__text3 text-2xl">
                                     <a href="https://www.codewars.com/users/gig4byte" target="_blank" rel="noopener noreferrer"> Codewars </a>
@@ -33,10 +33,10 @@ export default function Skills() {
                                 </h2>
                                 <img className="w-[60px] h-[50px]" src="/react.png" alt="react" />
                             </div>
-                            <p>
+                            <p className='pb-4'>
                                 Vue and React are my go to frontend frameworks. Among the two, react is my favorite.
                                 While in my last role, I've primarily dealt with backend services, I have also used React to build a few web apps.
-                                React is the first frontend framework I've learned and I have been using it for 2 years now.
+                                React is the first frontend framework I've learned and I have been using it for 2 years now. Cool tip, this website is built in React and Next.
                             </p>
                         </li>
                         <li>
@@ -46,12 +46,12 @@ export default function Skills() {
                                 </h2>
                                 <img className="w-[50px] h-[50px]" src="/nodejs.png" alt="node" />
                             </div>
-                            <p>
+                            <p className='pb-4'>
                                 I've been using Node.js for 3 years now. I have used it to build microservices and backend services.
                                 In one of my recent projects, I have used Node.js to build an ETL (Extract, Transform, Load) service that is used to process data from a third party API.
                                 The service was built on an AWS Serverless architecture using AWS Lambda, AWS SQS, and AWS S3.
                                 What I really like about Node is the amount of libraries available to choose from. It's not difficult to find something that does what you need.
-                                From webscraping with Puppeteer, to building a REST APIs with Express, to working with Excel files with ExcelJS, there's a library for it.
+                                From webscraping with Puppeteer, to building REST APIs with Express, to working with Excel files with ExcelJS.
                                 For building microservices, I'd choose Node.js.
                             </p>
                         </li>
@@ -62,7 +62,7 @@ export default function Skills() {
                                 </h2>
                                 <img className="w-[60px] h-[50px]" src="/rails.svg" alt="rails" />
                             </div>
-                            <p>
+                            <p className='pb-4'>
                                 Ruby on Rails is the first backend/MVC framework I've learned. I have used it to build a few web apps such as a simple task managing app and a simple stock trading app.
                                 What I like about Ruby on Rails is how easy it is to get started. Scaffold a model, run the migrations, and you're good to go.
                                 Most of my experience with Ruby on rails is with personal projects.
@@ -70,15 +70,51 @@ export default function Skills() {
                         </li>
                         <li>
                             <div className='flex items-center gap-4'>
-                            <h2 className="gradient__text2">
-                                PHP Laravel
-                            </h2>
-                            <img className="w-[60px] h-[50px]" src="/laravel.svg" alt="laravel" />
+                                <h2 className="gradient__text2">
+                                    PHP Laravel
+                                </h2>
+                                <img className="w-[60px] h-[50px]" src="/laravel.svg" alt="laravel" />
                             </div>
                             <p>
                                 One of our projects in my last role was a PHP Laravel project. We built a web app that is used to manage the company's data, as well as our clients' data.
                                 It's the framework that taught me the importance of Object Oriented Programming. It's also the framework that taught me how to write clean code.
                                 My total exposure to PHP Laravel is 2 years.
+                            </p>
+                        </li>
+                        <li>
+                            <div className='flex items-center gap-4'>
+                                <h2 className="gradient__text2">
+                                    Linux / WSL
+                                </h2>
+                                <img className="w-[50px] h-[50px]" src="/linux.png" alt="linux" />
+                                <img className="w-[50px] h-[50px]" src="/ubuntu.png" alt="ubuntu" />
+                            </div>
+                            <p className='pb-4'>
+                                I've been using Linux via WSL (Windows Subsystem for Linux) for instantiating my development environment. The distro I'm most familiar with is Ubuntu.
+                            </p>
+                        </li>
+                        <li>
+                            <div className='flex items-center gap-4'>
+                                <h2 className="gradient__text2">
+                                    MySQL / PostgreSQL
+                                </h2>
+                                <img className="w-[50px] h-[50px]" src="/mysql.svg" alt="mysql" />
+                                <img className="w-[50px] h-[50px]" src="/psql.png" alt="postgresql" />
+                            </div>
+                            <p className='pb-4'>
+                                Databases are a must for any web app. I have used MySQL and PostgreSQL for my projects. I have used PostgreSQL for 3 years and MySQL for 2.
+                            </p>
+                        </li>
+                        <li>
+                            <div className='flex items-center gap-4'>
+                                <h2 className="gradient__text2">
+                                    AWS
+                                </h2>
+                                <img className="w-[75px] h-[50px] mt-4" src="/aws.png" alt="aws services" />
+                            </div>
+                            <p className='pb-4'>
+                                I have used AWS for 2 years now. I have used it to build a serverless architecture for a project I was working on. The services I've frequently used are Cloudwatch, AWS Lambda, Cognito, AWS SQS, AWS S3, EC2, and RDS.
+                                Cool tip, this website is running on AWS with Amplify.
                             </p>
                         </li>
                     </ul>

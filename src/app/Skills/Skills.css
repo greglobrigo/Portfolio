@@ -10,7 +10,7 @@
 }
 
 .skills__header-content {
-    flex: 1;
+    flex: 1.5;
     display: flex;
     justify-content: center;
     align-items: flex-start;
