@@ -1,5 +1,5 @@
 #home {
-    min-height: 100vh;
+    min-height: 90vh;
     width: 100%;
 }
 
@@ -25,6 +25,17 @@
     font-size: 62px;
     line-height: 80px;
     letter-spacing: -0.04em;
+}
+
+
+@keyframes breathe {
+    0% {
+        --rotate: 0deg;
+    }
+
+    100% {
+        --rotate: 360deg;
+    }
 }
 
 .caption {
@@ -174,19 +185,14 @@
 }
 
 .card {
-    background: inherit;
     width: var(--card-width);
     height: var(--card-height);
     padding: 1rem;
     position: relative;
     justify-content: center;
     align-items: center;
-    text-align: center;
     display: flex;
-    font-size: 1.5em;
     color: rgb(88 199 250 / 0%);
-    cursor: pointer;
-    font-family: cursive;
     z-index: 1;
 }
 
@@ -206,6 +212,7 @@
     0% {
         --rotate: 0deg;
     }
+
     100% {
         --rotate: 360deg;
     }

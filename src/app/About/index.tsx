@@ -20,7 +20,7 @@ export default function About() {
                         I am currently working as a <span className="gradient__text2">Software Engineer</span> at <span className="gradient__text2">Mosaic Solutions</span> for almost 2 years.
                     </p>
                     <p className="text-2xl font-semibold">
-                        I've been progamming for 3 years, and have built and led projects <br />
+                        I've been progamming for 3 years, and have built and led projects
                         for companies such as <span className="gradient__text2">SM</span> and <span className="gradient__text2">TMG (The Moment Group of Companies)</span>
                     </p>
                 </div>
