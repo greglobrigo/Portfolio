@@ -9,6 +9,9 @@ export default function About() {
                     <p className="text-2xl font-semibold">
                         I graduated from College in Divine Word College of Legazpi. I have a bachelor's degree in <span className="gradient__text2">Business and Finance</span>
                     </p>
+                      <p className="text-2xl font-semibold">
+                        I took a coding bootcamp focusing on React and Ruby on Rails in <a href='https://www.avionschool.com/' target="_blank" rel="noreferrer" className="gradient__text2"><span className="gradient__text2">Avion School</span></a>
+                    </p>
                     <p className="text-2xl font-semibold">
                         Before getting into a developer role, I worked as a <span className="gradient__text2">Technical Support Representative</span> for <span className="gradient__text2">3 years,</span><br />
                         for companies like <span className="gradient__text2">Lyft</span> and <span className="gradient__text2">Walmart</span>
