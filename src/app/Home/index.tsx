@@ -16,7 +16,9 @@ export default function Home() {
             <Navbar />
             <div className="home__header section__padding" id="home">
                 <div className="home__header-content">
-                    <h1 className="gradient__text">Hello, I'm Greg. <br />Let&apos;s Build Something amazing.</h1>
+                    <div className="gradient__text breathe">
+                        <h1>Hello, I'm Greg. <br />Let&apos;s Build Something amazing.</h1>
+                    </div>
                     <p>
                         I&apos;m a software engineer with a passion for building products that
                         <span className="gradient__text2"> make a difference. </span><br />

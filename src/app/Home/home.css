@@ -27,17 +27,6 @@
     letter-spacing: -0.04em;
 }
 
-
-@keyframes breathe {
-    0% {
-        --rotate: 0deg;
-    }
-
-    100% {
-        --rotate: 360deg;
-    }
-}
-
 .caption {
     font-family: var(--font-family);
     font-weight: 800;
@@ -204,7 +193,7 @@
     border-radius: 12px;
     position: absolute;
     z-index: -1;
-    animation: spin 8s linear infinite;
+    animation: spin 15s linear infinite;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2), 0px 0px 10px #20ff6780, 0px 0px 20px rgba(255, 72, 32, 0.2), 0px 0px 30px rgba(255, 72, 32, 0.1);
 }
 
