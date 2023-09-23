@@ -15,6 +15,7 @@ export default function Skills() {
                                 <h2 className="gradient__text2">
                                     Javascript / Typescript
                                 </h2>
+                                <img className="w-[50px] h-[50px]" src="/js.png" alt="js" />
                                 <img className="w-[50px] h-[50px]" src="/typescript.png" alt="ts" />
                             </div>
                             <p className='pb-4'>
@@ -113,8 +114,34 @@ export default function Skills() {
                                 <img className="w-[75px] h-[50px] mt-4" src="/aws.png" alt="aws services" />
                             </div>
                             <p className='pb-4'>
-                                I've been using AWS for 2 years. I've once used it to build a serverless architecture for a project I was working on. The services I've frequently used are Cloudwatch, AWS Lambda, Cognito, AWS SQS, AWS S3, EC2, and RDS.
+                                I've been using AWS for 2 years, it's the cloud provider service I'm most familiar with for deploying full stack applications, aside from Heroku. I've once used it to extend a serverless architecture for a project I was working on. The services I've frequently used are Cloudwatch, AWS Lambda, Cognito, AWS SQS, AWS S3, EC2, and RDS.
                                 Cool tip, this website is running on AWS with Amplify.
+                            </p>
+                        </li>
+                        <li>
+                            <div className='flex items-center gap-4'>
+                                <h2 className="gradient__text2">
+                                    Git / Github
+                                </h2>
+                                <img className="w-[50px] h-[50px]" src="/git.png" alt="git" />
+                                <img className="w-[50px] h-[50px]" src="/github.png" alt="github" />
+                            </div>
+                            <p className='pb-4'>
+                                Version control is a must for any developer. I've been using Git and github since I started. I've used it to collaborate with other developers on projects, as well as for personal projects.
+                                Other notable version control systems I've used are Bitbucket and Gitlab.
+                            </p>
+                        </li>
+                        <li>
+                            <div className='flex items-center gap-4'>
+                                <h2 className="gradient__text2">
+                                    HTML / CSS
+                                </h2>
+                                <img className="w-[50px] h-[50px]" src="/html.png" alt="html" />
+                                <img className="w-[40px] h-[38px]" src="/css.png" alt="css" />
+                            </div>
+                            <p className='pb-4'>
+                                I've recently added Tailwind CSS to my skillset. I've been using tailwind for 2 months now, including the creation of this website. I've been using HTML and CSS since I started.
+                                Other CSS frameworks I'm familiar with are SASS, Bootstrap, and Material UI.
                             </p>
                         </li>
                     </ul>
