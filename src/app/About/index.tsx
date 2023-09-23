@@ -3,7 +3,7 @@ import './About.css'
 export default function About() {
     return (
         <>
-            <div className="about__header section__padding" id="about">
+            <div className="about__header section__padding gradient__bg__left" id="about">
                 <div className="about__header-content">
                     <h1 className="gradient__text">About me</h1>
                     <p className="text-2xl font-semibold">

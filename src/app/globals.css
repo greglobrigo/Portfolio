@@ -75,6 +75,10 @@ a {
   background: radial-gradient(circle at 50% 50%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 60%);
 }
 
+.gradient__bg__left {
+  background: radial-gradient(circle at 5% 50%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 15%);
+}
+
 .gradient__text {
   background: var(--gradient-text);
   background-clip: text;
@@ -133,6 +137,19 @@ a {
   }
 }
 
+@media screen and (max-width: 1400px) {
+
+  .gradient__bg__left {
+    background: radial-gradient(circle at 10% 40%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 20%);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .gradient__bg__left {
+    background: radial-gradient(circle at 10% 30%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 15%);
+  }
+}
+
 @media screen and (max-width: 700px) {
   .section__padding {
     padding: 4rem;
@@ -140,6 +157,10 @@ a {
 
   .section__margin {
     margin: 4rem;
+  }
+
+  .gradient__bg__left {
+    background: radial-gradient(circle at 5% 30%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 35%);
   }
 }
 

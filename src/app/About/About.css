@@ -172,4 +172,9 @@
         font-size: 12px;
         line-height: 16px;
     }
+
+    .aws, .aws img{
+        height: 300px;
+        width: 300px;
+    }
 }

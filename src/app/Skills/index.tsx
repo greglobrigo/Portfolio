@@ -6,7 +6,7 @@ export default function Skills() {
 
     return (
         <>
-            <div className="skills__header section__padding" id="skills">
+            <div className="skills__header section__padding gradient__bg__left" id="skills">
                 <div className="skills__header-content">
                     <h1 className="gradient__text pb-4">Technical Skills</h1>
                     <ul className="skills__header-content__list">
