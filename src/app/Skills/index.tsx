@@ -90,7 +90,7 @@ export default function Skills() {
                                 <img className="w-[50px] h-[50px]" src="/ubuntu.png" alt="ubuntu" />
                             </div>
                             <p className='pb-4'>
-                                I've been using Linux via WSL (Windows Subsystem for Linux) for instantiating my development environment. The distro I'm most familiar with is Ubuntu.
+                                I've been using Linux via WSL (Windows Subsystem for Linux) for instantiating my development environment. The distro I'm most familiar with is Ubuntu. Total years of exposure to Linux is 2 years.
                             </p>
                         </li>
                         <li>
@@ -113,7 +113,7 @@ export default function Skills() {
                                 <img className="w-[75px] h-[50px] mt-4" src="/aws.png" alt="aws services" />
                             </div>
                             <p className='pb-4'>
-                                I have used AWS for 2 years now. I have used it to build a serverless architecture for a project I was working on. The services I've frequently used are Cloudwatch, AWS Lambda, Cognito, AWS SQS, AWS S3, EC2, and RDS.
+                                I've been using AWS for 2 years. I've once used it to build a serverless architecture for a project I was working on. The services I've frequently used are Cloudwatch, AWS Lambda, Cognito, AWS SQS, AWS S3, EC2, and RDS.
                                 Cool tip, this website is running on AWS with Amplify.
                             </p>
                         </li>
