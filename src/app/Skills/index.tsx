@@ -13,7 +13,10 @@ export default function Skills() {
                     <ul className="skills__header-content__list">
                         <li>
                             <div className='flex items-center gap-4'>
-                                <h2 className="gradient__text2">
+                                <h2 className="gradient__text2 nn:block md:hidden">
+                                    JS / TS
+                                </h2>
+                                <h2 className="gradient__text2 nn:hidden md:block">
                                     Javascript / Typescript
                                 </h2>
                                 <Image width={50} height={50} className="w-[50px] h-[50px]"
