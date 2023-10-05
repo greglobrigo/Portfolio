@@ -121,15 +121,6 @@
     align-items: center;
 }
 
-/* .header-content__links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4rem;
-    margin-top: 1rem;
-    width: 100%;
-} */
-
 @media screen and (max-width: 1050px) {
     .about__header {
         flex-direction: column;
