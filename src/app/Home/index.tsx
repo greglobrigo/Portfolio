@@ -35,7 +35,7 @@ export default function Home() {
                         <button className="cta__header-content__button button2" type="button">Hire Me</button>
                     </div>
 
-                    <div className="header-content__links">
+                    <div className="header-content__links__home">
                         <a href="https://github.com/greglobrigo"
                             target="_blank" rel="noopener noreferrer">
                             <FaGithub size={30} color="#4078c0" />

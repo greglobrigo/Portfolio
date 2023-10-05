@@ -125,7 +125,7 @@
     object-fit: contain;
 }
 
-.header-content__links {
+.header-content__links__home {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,6 +141,10 @@
 
     .home__header-content {
         margin: 0 0 3rem;
+    }
+
+    .header-content__links__home {
+        gap: 2rem;
     }
 }
 
