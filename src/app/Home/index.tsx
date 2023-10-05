@@ -7,6 +7,7 @@ import { FaLinkedin } from 'react-icons/fa'
 import { FaFacebook } from 'react-icons/fa'
 import { FaTwitter } from 'react-icons/fa'
 import { FaDiscord } from 'react-icons/fa'
+import Image from 'next/image'
 
 
 export default function Home() {
@@ -61,7 +62,8 @@ export default function Home() {
                 <div className="home__header-image flex-col">
                     <h1 className="caption gradient__text">Github Copilot</h1>
                     <div className="card">
-                        <img src="/github-copilot.png" alt='copilot' />
+                        <Image width={500} height={500}
+                        src="/github-copilot.png" alt='copilot' />
                     </div>
                 </div>
             </div>

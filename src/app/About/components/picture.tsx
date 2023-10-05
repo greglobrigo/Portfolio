@@ -2,6 +2,8 @@
 import '../About.css'
 import { Fade } from 'react-awesome-reveal'
 import { useState } from 'react'
+//use Image from nextjs to optimize image
+import Image from 'next/image'
 
 
 export default function AboutPic() {
@@ -14,7 +16,8 @@ export default function AboutPic() {
                         show ?
                             <div>
                                 <div className="w-[450px] h-[600px] bg-[#3d71df] rounded-lg shadow-lg aws">
-                                    <img className="w-auto h-auto opacity-80" src="/gym.jpg" alt="gym" />
+                                    <Image width={450} height={600}
+                                    className="w-auto h-auto opacity-80" src="/gym.jpg" alt="gym" />
                                 </div>
                                 <div className="flex justify-center items-center pt-8">
                                     <p className="text-xl font-semibold gradient__text">Gym</p>
@@ -23,7 +26,8 @@ export default function AboutPic() {
                             :
                             <div>
                                 <div className="w-[450px] h-[600px] bg-[#3d71df] rounded-lg shadow-lg aws">
-                                    <img className="w-auto h-auto opacity-80" src="/aws.jpg" alt="aws training" />
+                                    <Image width={450} height={600}
+                                    className="w-auto h-auto opacity-80" src="/aws.jpg" alt="aws training" />
                                 </div>
                                 <div className="flex justify-center items-center pt-8">
                                     <p className="text-xl font-semibold gradient__text">AWS Training</p>

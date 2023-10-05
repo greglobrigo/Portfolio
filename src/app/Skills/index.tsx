@@ -1,6 +1,7 @@
 "use client"
 import './Skills.css';
 import { Fade } from 'react-awesome-reveal'
+import Image from 'next/image'
 
 export default function Skills() {
 
@@ -15,8 +16,10 @@ export default function Skills() {
                                 <h2 className="gradient__text2">
                                     Javascript / Typescript
                                 </h2>
-                                <img className="w-[50px] h-[50px]" src="/js.png" alt="js" />
-                                <img className="w-[50px] h-[50px]" src="/typescript.png" alt="ts" />
+                                <Image width={50} height={50} className="w-[50px] h-[50px]"
+                                    src="/js.png" alt="js" />
+                                <Image width={50} height={50}
+                                    className="w-[50px] h-[50px]" src="/typescript.png" alt="ts" />
                             </div>
                             <p className='pb-4'>
                                 I have been using Javascript for 3 years, Typescript for 2. I have used it to build websites, web apps, and microservices together with Node.
@@ -32,7 +35,7 @@ export default function Skills() {
                                 <h2 className="gradient__text2">
                                     React
                                 </h2>
-                                <img className="w-[60px] h-[50px]" src="/react.png" alt="react" />
+                                <Image width={50} height={50} className="w-[60px] h-[50px]" src="/react.png" alt="react" />
                             </div>
                             <p className='pb-4'>
                                 Vue and React are my go to frontend frameworks. Among the two, react is my favorite.
@@ -45,7 +48,7 @@ export default function Skills() {
                                 <h2 className="gradient__text2">
                                     Node.js
                                 </h2>
-                                <img className="w-[50px] h-[50px]" src="/nodejs.png" alt="node" />
+                                <Image width={50} height={50} className="w-[50px] h-[50px]" src="/nodejs.png" alt="node" />
                             </div>
                             <p className='pb-4'>
                                 I&apos;ve been using Node.js for 3 years now. I have used it to build microservices and backend services.
@@ -61,7 +64,7 @@ export default function Skills() {
                                 <h2 className="gradient__text2">
                                     Ruby on Rails
                                 </h2>
-                                <img className="w-[60px] h-[50px]" src="/rails.svg" alt="rails" />
+                                <Image width={50} height={50} className="w-[60px] h-[50px]" src="/rails.svg" alt="rails" />
                             </div>
                             <p className='pb-4'>
                                 Ruby on Rails is the first backend/MVC framework I&apos;ve learned. I have used it to build a few web apps such as a simple task managing app and a simple stock trading app.
@@ -74,7 +77,7 @@ export default function Skills() {
                                 <h2 className="gradient__text2">
                                     PHP Laravel
                                 </h2>
-                                <img className="w-[60px] h-[50px]" src="/laravel.svg" alt="laravel" />
+                                <Image width={50} height={50} className="w-[60px] h-[50px]" src="/laravel.svg" alt="laravel" />
                             </div>
                             <p>
                                 One of our projects in my last role was a PHP Laravel project. We built a web app that is used to manage the company&apos;s data, as well as our clients&apos; data.
@@ -87,8 +90,8 @@ export default function Skills() {
                                 <h2 className="gradient__text2">
                                     Linux / WSL
                                 </h2>
-                                <img className="w-[50px] h-[50px]" src="/linux.png" alt="linux" />
-                                <img className="w-[50px] h-[50px]" src="/ubuntu.png" alt="ubuntu" />
+                                <Image width={50} height={50} className="w-[50px] h-[50px]" src="/linux.png" alt="linux" />
+                                <Image width={50} height={50} className="w-[50px] h-[50px]" src="/ubuntu.png" alt="ubuntu" />
                             </div>
                             <p className='pb-4'>
                                 I&apos;ve been using Linux via WSL (Windows Subsystem for Linux) for instantiating my development environment. The distro I&apos;m most familiar with is Ubuntu. Total years of exposure to Linux is 2 years.
@@ -99,8 +102,8 @@ export default function Skills() {
                                 <h2 className="gradient__text2">
                                     MySQL / PostgreSQL
                                 </h2>
-                                <img className="w-[50px] h-[50px]" src="/mysql.svg" alt="mysql" />
-                                <img className="w-[50px] h-[50px]" src="/psql.png" alt="postgresql" />
+                                <Image width={50} height={50} className="w-[50px] h-[50px]" src="/mysql.svg" alt="mysql" />
+                                <Image width={50} height={50} className="w-[50px] h-[50px]" src="/psql.png" alt="postgresql" />
                             </div>
                             <p className='pb-4'>
                                 Databases are a must for any web app. I have used MySQL and PostgreSQL for my projects. I have used PostgreSQL for 3 years and MySQL for 2.
@@ -111,7 +114,7 @@ export default function Skills() {
                                 <h2 className="gradient__text2">
                                     AWS
                                 </h2>
-                                <img className="w-[75px] h-[50px] mt-4" src="/aws.png" alt="aws services" />
+                                <Image width={50} height={50} className="w-[75px] h-[50px] mt-4" src="/aws.png" alt="aws services" />
                             </div>
                             <p className='pb-4'>
                                 I&apos;ve been using AWS for 2 years, it&apos;s the cloud provider service I&apos;m most familiar with for deploying full stack applications, aside from Heroku. I&apos;ve once used it to extend a serverless architecture for a project I was working on. The services I've frequently used are Cloudwatch, AWS Lambda, Cognito, AWS SQS, AWS S3, EC2, and RDS.
@@ -123,8 +126,8 @@ export default function Skills() {
                                 <h2 className="gradient__text2">
                                     Git / Github
                                 </h2>
-                                <img className="w-[50px] h-[50px]" src="/git.png" alt="git" />
-                                <img className="w-[50px] h-[50px]" src="/github.png" alt="github" />
+                                <Image width={50} height={50} className="w-[50px] h-[50px]" src="/git.png" alt="git" />
+                                <Image width={50} height={50} className="w-[50px] h-[50px]" src="/github.png" alt="github" />
                             </div>
                             <p className='pb-4'>
                                 Version control is a must for any developer. I&apos;ve been using Git and github since I started. I&apos;ve used it to collaborate with other developers on projects, as well as for personal projects.
@@ -136,8 +139,8 @@ export default function Skills() {
                                 <h2 className="gradient__text2">
                                     HTML / CSS
                                 </h2>
-                                <img className="w-[50px] h-[50px]" src="/html.png" alt="html" />
-                                <img className="w-[40px] h-[38px]" src="/css.png" alt="css" />
+                                <Image width={50} height={50} className="w-[50px] h-[50px]" src="/html.png" alt="html" />
+                                <Image width={50} height={50} className="w-[40px] h-[38px]" src="/css.png" alt="css" />
                             </div>
                             <p className='pb-4'>
                                 I&apos;ve recently added Tailwind CSS to my skillset. I&apos;ve been using tailwind for 2 months now, including the creation of this website. I&apos;ve been using HTML and CSS since I started.
