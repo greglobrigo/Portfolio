@@ -18,7 +18,7 @@ export default function Home() {
             <div className="home__header section__padding" id="home">
                 <div className="home__header-content">
                     <div className="gradient__text breathe">
-                        <h1>Hello, I'm Greg. <br />Let&apos;s Build Something amazing.</h1>
+                        <h1>Hello, I&apos;m Greg. <br />Let&apos;s Build Something amazing.</h1>
                     </div>
                     <p>
                         I&apos;m a software engineer with a passion for building products that

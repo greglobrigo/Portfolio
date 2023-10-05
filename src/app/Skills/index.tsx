@@ -117,7 +117,7 @@ export default function Skills() {
                                 <Image width={50} height={50} className="w-[75px] h-[50px] mt-4" src="/aws.png" alt="aws services" />
                             </div>
                             <p className='pb-4'>
-                                I&apos;ve been using AWS for 2 years, it&apos;s the cloud provider service I&apos;m most familiar with for deploying full stack applications, aside from Heroku. I&apos;ve once used it to extend a serverless architecture for a project I was working on. The services I've frequently used are Cloudwatch, AWS Lambda, Cognito, AWS SQS, AWS S3, EC2, and RDS.
+                                I&apos;ve been using AWS for 2 years, it&apos;s the cloud provider service I&apos;m most familiar with for deploying full stack applications, aside from Heroku. I&apos;ve once used it to extend a serverless architecture for a project I was working on. The services I&apos;ve frequently used are Cloudwatch, AWS Lambda, Cognito, AWS SQS, AWS S3, EC2, and RDS.
                                 Cool tip, this website is running on AWS with Amplify.
                             </p>
                         </li>
