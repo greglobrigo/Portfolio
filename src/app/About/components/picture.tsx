@@ -1,8 +1,6 @@
 'use client';
 import '../About.css'
-import { Fade } from 'react-awesome-reveal'
 import { useState } from 'react'
-//use Image from nextjs to optimize image
 import Image from 'next/image'
 
 
