@@ -11,7 +11,6 @@ export default function AboutPic() {
     return (
         <>
             <div onMouseEnter={() => setShow(true)} onMouseLeave={() => setShow(false) } onClick={()=>setShow(!show)} className='cursor-pointer'>
-                <Fade direction="right">
                     {
                         show ?
                             <div>
@@ -34,7 +33,6 @@ export default function AboutPic() {
                                 </div>
                             </div>
                     }
-                </Fade>
             </div >
         </>
     )
