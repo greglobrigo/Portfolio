@@ -7,9 +7,6 @@ import './navbar.css';
 
 export default function Navbar() {
 
-  //I have Resume.pdf in my public folder
-  //q: can I make that downloadable through a link?
-  
   const downloadResume = () => {
     window.open('Resume.pdf');
   }
