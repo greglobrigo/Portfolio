@@ -42,8 +42,8 @@ export default function Navbar() {
             ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
             : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />}
           {toggleMenu && (
-            <div className="gpt3__navbar-menu_container scale-up-center">
-              <div className="gpt3__navbar-menu_container-links">
+            <div className="gpt3__navbar-menu_container scale-up-center z-10">
+              <div className="gpt3__navbar-menu_container-links z-10">
                 <Fade direction="up">
                   <p><a href="#home">Home</a></p>
                 </Fade>
