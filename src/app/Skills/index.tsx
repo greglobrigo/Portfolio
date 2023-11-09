@@ -83,7 +83,7 @@ export default function Skills() {
                                 <p className='pb-4'>
                                     Ruby on Rails is the first backend/MVC framework I&apos;ve learned. I have used it to build a lot of web apps such as a simple task managing app, a simple stock trading app, and a simple chat app.
                                     What I like about Ruby on Rails is how easy it is to get started. Scaffold a model, run the migrations, and you&apos;re good to go.
-                                    I've been using Ruby on Rails for 3 years now.
+                                    I&apos;ve been using Ruby on Rails for 3 years now.
                                 </p>
                             </li>
                         </Fade>
@@ -171,7 +171,7 @@ export default function Skills() {
                                     <Image width={50} height={50} className="w-[40px] h-[38px]" src="/css.png" alt="css" />
                                 </div>
                                 <p className='pb-4'>
-                                    I&apos;ve recently added Tailwind CSS to my skillset and is what I've used to create this website. I&apos;ve been using HTML and CSS since I started.
+                                    I&apos;ve recently added Tailwind CSS to my skillset and is what I&apos;ve used to create this website. I&apos;ve been using HTML and CSS since I started.
                                     Other CSS frameworks I&apos;m familiar with are SASS, Bootstrap, and Material UI.
                                     Total years of exposure to HTML and CSS is 3 years.
                                 </p>
