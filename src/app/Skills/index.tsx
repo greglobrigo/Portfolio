@@ -9,11 +9,11 @@ export default function Skills() {
         <>
             <div className="skills__header section__padding gradient__bg__left" id="skills">
                 <div className="skills__header-content">
-                    <Fade direction="up" >
+                    <Fade triggerOnce direction="up" >
                         <h1 className="gradient__text pb-4">Technical Skills</h1>
                     </Fade>
                     <ul className="skills__header-content__list">
-                        <Fade direction="up" delay={200}>
+                        <Fade triggerOnce direction="up" delay={200}>
                             <li>
                                 <div className='flex items-center gap-4'>
                                     <h2 className="gradient__text2 nn:block md:hidden">
@@ -39,7 +39,7 @@ export default function Skills() {
 
                             </li>
                         </Fade>
-                        <Fade direction="up" delay={200}>
+                        <Fade triggerOnce direction="up" delay={200}>
                             <li>
                                 <div className='flex items-center gap-4'>
                                     <h2 className="gradient__text2">
@@ -54,7 +54,7 @@ export default function Skills() {
                                 </p>
                             </li>
                         </Fade>
-                        <Fade direction="up" delay={200}>
+                        <Fade triggerOnce direction="up" delay={200}>
                             <li>
                                 <div className='flex items-center gap-4'>
                                     <h2 className="gradient__text2">
@@ -72,7 +72,7 @@ export default function Skills() {
                                 </p>
                             </li>
                         </Fade>
-                        <Fade direction="up" delay={200}>
+                        <Fade triggerOnce direction="up" delay={200}>
                             <li>
                                 <div className='flex items-center gap-4'>
                                     <h2 className="gradient__text2">
@@ -87,7 +87,7 @@ export default function Skills() {
                                 </p>
                             </li>
                         </Fade>
-                        <Fade direction="up" delay={200}>
+                        <Fade triggerOnce direction="up" delay={200}>
                             <li>
                                 <div className='flex items-center gap-4'>
                                     <h2 className="gradient__text2">
@@ -102,7 +102,7 @@ export default function Skills() {
                                 </p>
                             </li>
                         </Fade>
-                        <Fade direction="up" delay={200}>
+                        <Fade triggerOnce direction="up" delay={200}>
                             <li>
                                 <div className='flex items-center gap-4'>
                                     <h2 className="gradient__text2">
@@ -116,7 +116,7 @@ export default function Skills() {
                                 </p>
                             </li>
                         </Fade>
-                        <Fade direction="up" delay={200}>
+                        <Fade triggerOnce direction="up" delay={200}>
                             <li>
                                 <div className='flex items-center gap-4'>
                                     <h2 className="gradient__text2">
@@ -130,7 +130,7 @@ export default function Skills() {
                                 </p>
                             </li>
                         </Fade>
-                        <Fade direction="up" delay={200}>
+                        <Fade triggerOnce direction="up" delay={200}>
                             <li>
                                 <div className='flex items-center gap-4'>
                                     <h2 className="gradient__text2">
@@ -145,7 +145,7 @@ export default function Skills() {
                                 </p>
                             </li>
                         </Fade>
-                        <Fade direction="up" delay={200}>
+                        <Fade triggerOnce direction="up" delay={200}>
                             <li>
                                 <div className='flex items-center gap-4'>
                                     <h2 className="gradient__text2">
@@ -161,7 +161,7 @@ export default function Skills() {
                                 </p>
                             </li>
                         </Fade>
-                        <Fade direction="up" delay={200}>
+                        <Fade triggerOnce direction="up" delay={200}>
                             <li>
                                 <div className='flex items-center gap-4'>
                                     <h2 className="gradient__text2">
