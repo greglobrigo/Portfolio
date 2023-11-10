@@ -13,7 +13,7 @@ export default function Main() {
       <About />
       <Skills />
       <Mosaic />
-      {/* <Work /> */}
+      <Work />
     </>
   )
 }

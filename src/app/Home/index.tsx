@@ -92,6 +92,7 @@ export default function Home() {
                             </Fade>
                             <Fade triggerOnce direction="up" delay={1000}>
                                 <Image width={75} height={75}
+                                    onClick={() => window.location.href = '#sm-sia'}
                                     className="cursor-pointer min-w-[75px] min-h-[75px] hover:scale-110 transition duration-300 ease-in-out"
                                     src="/smlogo.png" alt='smlogo' />
                             </Fade>
