@@ -19,19 +19,19 @@ export default function Navbar() {
             <h1>glxd</h1>
           </div>
           <div className="gpt3__navbar-links_container">
-            <Fade direction="left" delay={2000}>
+            <Fade direction="left" delay={1000}>
               <p><a href="#home">Home</a></p>
             </Fade>
-            <Fade direction="left" delay={2400}>
+            <Fade direction="left" delay={1400}>
               <p><a href="#about">About</a></p>
             </Fade>
-            <Fade direction="left" delay={2800}>
+            <Fade direction="left" delay={1800}>
               <p><a href="#projects">Projects</a></p>
             </Fade>
-            <Fade direction="left" delay={3200}>
+            <Fade direction="left" delay={2200}>
               <p><a href="#contact">Contact</a></p>
             </Fade>
-            <Fade direction="left" delay={3600}>
+            <Fade direction="left" delay={2600}>
               <p onClick={downloadResume}>
                 <a href="#resume">Resume</a></p>
             </Fade>
