@@ -95,7 +95,7 @@ export default function Skills() {
                                     </h2>
                                     <Image width={50} height={50} className="w-[60px] h-[50px]" src="/laravel.svg" alt="laravel" />
                                 </div>
-                                <p>
+                                <p className='pb-4'>
                                     One of our projects in my last role was a PHP Laravel project. We built a web app that is used to manage the company&apos;s data, as well as our clients&apos; data.
                                     It&apos;s the framework that taught me the importance of Object Oriented Programming. It&apos;s also the framework that taught me how to write clean code.
                                     My total exposure to PHP Laravel is 2.5 years.
@@ -111,7 +111,7 @@ export default function Skills() {
                                     <Image width={50} height={50} className="w-[50px] h-[50px]" src="/pascal-logo.png" alt="pascal" />
                                     <Image width={50} height={50} className="w-[50px] h-[50px]" src="/lazarus-logo.png" alt="lazarus" />
                                 </div>
-                                <p>
+                                <p className='pb-4'>
                                     Pascal is the first desktop programming language I&apos;ve learned. I&apos;ve used it at work to extend the functionality of a legacy application that was built in Delphi.
                                     While Pascal isn't considered a modern programming language, the bundle size of the executables it produces is very small, lightweight in terms of dependencies, and memory efficient, which is perfect for low spec machines.
                                     Total years of exposure to Pascal is 2 years.
