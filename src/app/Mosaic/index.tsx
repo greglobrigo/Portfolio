@@ -11,9 +11,14 @@ export default function Mosaic() {
                 <div className="mosaic__header-content">
                     <Fade triggerOnce direction='up'>
                         <h1 className="gradient__text pb-2">Mosaic Solutions</h1>
-                        <p className='pb-8'>
-                            Mosaic Solutions is where I currently work as a software engineer. We&apos;re a medium sized software company catering to the food and beverage industry,
+                        <p>
+                            Mosaic Solutions is where I currently work as a software engineer. We&apos;re a medium sized software and analytics company catering to the food and beverage industry,
                             where we build custom software for our clients.
+                            I've worked with some of the best engineers in the industry here and I've learned a lot from them.
+                            We also observe Scrum and Agile methodologies in our software development lifecycle.
+                        </p>
+                        <p className='pb-8'>
+                            Tags: Scrum, Agile, Project Management, CI/CD, DevOps
                         </p>
                     </Fade>
                     <div className='flex xl:flex-row justify-center items-center flex-col gap-10'>
