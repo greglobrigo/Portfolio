@@ -2,7 +2,7 @@ import Home from "./Home";
 import About from "./About";
 import Skills from "./Skills";
 import Mosaic from "./Mosaic";
-import Work from "./Work";
+import Work from "./Work-Projects";
 
 export default function Main() {
   return (

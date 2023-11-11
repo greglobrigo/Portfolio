@@ -113,7 +113,7 @@ export default function Skills() {
                                 </div>
                                 <p className='pb-4'>
                                     Pascal is the first desktop programming language I&apos;ve learned. I&apos;ve used it at work to extend the functionality of a legacy application that was built in Delphi.
-                                    While Pascal isn't considered a modern programming language, the bundle size of the executables it produces is very small, lightweight in terms of dependencies, and memory efficient, which is perfect for low spec machines.
+                                    While Pascal isn&apos;t considered a modern programming language, the bundle size of the executables it produces is very small, lightweight in terms of dependencies, and memory efficient, which is perfect for low spec machines.
                                     Total years of exposure to Pascal is 2 years.
                                 </p>
                             </li>

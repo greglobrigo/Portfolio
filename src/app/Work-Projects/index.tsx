@@ -78,7 +78,7 @@ export default function Work() {
                     </p>
                     <p className='pb-[100px]'>
                         Description: TMG Data IQ is a data pipeline that we built for the Business Intelligence and operations team of TMG to automate
-                        the sales data collection, aggregation and report generation from their 50+ branches nationwide. Through reports, we're able to provide
+                        the sales data collection, aggregation and report generation from their 50+ branches nationwide. Through reports, we&apos;re able to provide
                         visibility to the operations team of TMG on how their branches are performing on a daily basis.
                     </p>
                     <h2 className="gradient__text2 leading-none pb-2" id="tmg">
