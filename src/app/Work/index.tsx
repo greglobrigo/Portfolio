@@ -114,7 +114,7 @@ export default function Work() {
                         Description: Data IQ The Grid is another project that I&apos;m currently working on.
                         We provide visibility to the operations team of The Grid Food Market by providing them with real time analytics and reports
                         regarding their sales, inventory, and other data that they need to monitor on a daily basis.
-                        We've also created a web portal for them to view their data as well as download sales reports on demand.
+                        We&apos;ve also created a web portal for them to view their data as well as download sales reports on demand.
                     </p>
                     <div className='flex xl:flex-row justify-center items-center flex-col gap-10'>
                     </div>

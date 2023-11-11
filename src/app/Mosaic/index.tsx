@@ -14,7 +14,7 @@ export default function Mosaic() {
                         <p>
                             Mosaic Solutions is where I currently work as a software engineer. We&apos;re a medium sized software and analytics company catering to the food and beverage industry,
                             where we build custom software for our clients.
-                            I've worked with some of the best engineers in the industry here and I've learned a lot from them.
+                            I&apos;ve worked with some of the best engineers in the industry here and I&apos;ve learned a lot from them.
                             We also observe Scrum and Agile methodologies in our software development lifecycle.
                         </p>
                         <p className='pb-8'>
