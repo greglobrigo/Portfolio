@@ -10,7 +10,7 @@ export default function Work() {
             <div className="work__header section__padding gradient__bg__left" id="work">
                 <div className="work__header-content">
                     <Fade triggerOnce direction='up'>
-                        <h1 className="gradient__text pb-2" id="projects">Project Works</h1>
+                        <h1 className="gradient__text pb-2" id="projects">Work Projects</h1>
                     </Fade>
                     <h2 className="gradient__text2 pb-2" id="sm-sia">
                         • SM SIA
