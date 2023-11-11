@@ -76,8 +76,45 @@ export default function Work() {
                     <p>
                         Technologies: ExcelJS, MySQL, Node, Serverless, TypeORM, AWS Services
                     </p>
+                    <p className='pb-[100px]'>
+                        Description: TMG Data IQ is a project that I&apos;m currently working on.
+                        It&apos;s a data pipeline that we built for the Business Intelligence and operations team of TMG to monitor,
+                        aggregate and automate sales reports across their 50+ stores nationwide on a daily basis.
+                    </p>
+                    <h2 className="gradient__text2 leading-none" id="tmg">
+                        • The Moment Group (TMG)
+                    </h2>
+                    <span className='font-semibold gradient__text2 text-lg xl:pl-10 pl-8 leading-none pb-8'>(OOMA, MANAM, DIN TAI FUNG, 8CUTS, MO COOKIES)</span>
+                    <div className='flex flex-col xl:flex-row items-center gap-10'>
+                        <Image alt="tmg-daily-monitoring" src='/tmg-daily-monitoring.png' width={750} height={750}
+                            onClick={() => window.open('/tmg-daily-monitoring.png')}
+                            className='cursor-pointer hover:scale-110 transition duration-300 ease-in-out rounded-sm'
+                        />
+                        <Image alt="sm-stg" src='/tmg-end-of-day.png' width={750} height={750} //add 1px border
+                            className='cursor-pointer hover:scale-110 transition duration-300 ease-in-out rounded-sm border-[#e6e5eb6c]
+                            border-2'
+                            onClick={() => window.open('/tmg-end-of-day.png')}
+                        />
+                    </div>
                     <p>
-                        Description: TMG Data IQ is a project that I&apos;m currently working on. It&apos;s a data pipeline that we built for the Business Intelligence and operations team of TMG to monitor, aggregate and automate sales reports across their 50+ stores nationwide on a daily basis.
+                        Role: Lead Developer (Team of 2)
+                    </p>
+                    <p>
+                        Timeline: January 2023 - Present
+                    </p>
+                    <p>
+                        Project Type: ETL, Automated Reports Generation
+                    </p>
+                    <p>
+                        Tags: ETL, Automated Reports Generation, Data Pipeline, Data Aggregation, Data Monitoring, Data Analytics, Data Engineering
+                    </p>
+                    <p>
+                        Technologies: ExcelJS, MySQL, Node, Serverless, TypeORM, AWS Services
+                    </p>
+                    <p className='pb-[100px]'>
+                        Description: TMG Data IQ is a project that I&apos;m currently working on.
+                        It&apos;s a data pipeline that we built for the Business Intelligence and operations team of TMG to monitor,
+                        aggregate and automate sales reports across their 50+ stores nationwide on a daily basis.
                     </p>
                     <div className='flex xl:flex-row justify-center items-center flex-col gap-10'>
                     </div>

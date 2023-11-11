@@ -36,7 +36,7 @@ export default function About() {
                     <Fade triggerOnce direction="up" delay={1000}>
                         <p className="text-2xl font-semibold">
                             I&apos;ve been progamming for 3 years, and have built and led projects
-                            for companies such as <span className="gradient__text2">SM Supermalls</span> and <span className="gradient__text2">TMG (The Moment Group of Companies)</span>
+                            for companies such as <span className="gradient__text2">SM Supermalls</span>, <span className="gradient__text2">TMG (The Moment Group of Companies)</span> and <span className="gradient__text2">The Grid Food Market</span>
                         </p>
                     </Fade>
                     <Fade triggerOnce direction="up" delay={1200}>
