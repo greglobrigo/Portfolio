@@ -10,7 +10,7 @@ export default function Work() {
             <div className="work__header section__padding gradient__bg__left" id="work">
                 <div className="work__header-content">
                     <Fade triggerOnce direction='up'>
-                        <h1 className="gradient__text pb-2">Project Works</h1>
+                        <h1 className="gradient__text pb-2" id="projects">Project Works</h1>
                     </Fade>
                     <h2 className="gradient__text2 pb-2" id="sm-sia">
                         • SM SIA
@@ -77,9 +77,9 @@ export default function Work() {
                         Technologies: ExcelJS, MySQL, Node, Serverless, TypeORM, AWS Services
                     </p>
                     <p className='pb-[100px]'>
-                        Description: TMG Data IQ is a project that I&apos;m currently working on.
-                        It&apos;s a data pipeline that we built for the Business Intelligence and operations team of TMG to monitor,
-                        aggregate and automate sales reports across their 50+ stores nationwide on a daily basis.
+                        Description: TMG Data IQ is a data pipeline that we built for the Business Intelligence and operations team of TMG to automate
+                        the sales data collection, aggregation and report generation from their 50+ branches nationwide. Through reports, we're able to provide
+                        visibility to the operations team of TMG on how their branches are performing on a daily basis.
                     </p>
                     <h2 className="gradient__text2 leading-none pb-2" id="tmg">
                         • The Grid Food Market
@@ -112,9 +112,9 @@ export default function Work() {
                     </p>
                     <p className='pb-[100px]'>
                         Description: Data IQ The Grid is another project that I&apos;m currently working on.
-                        We provide visibility to the operations team of The Grid Food Market by providing them with real time analytics and reports
-                        regarding their sales, inventory, and other data that they need to monitor on a daily basis.
-                        We&apos;ve also created a web portal for them to view their data as well as download sales reports on demand.
+                        The web app provides visibility to the operations team of The Grid Food Market by providing them with real time sales status reports
+                        with regards to their tenants and other data that they need to monitor on a daily basis.
+                        We&apos;ve also created a portal for them to download sales reports on demand.
                     </p>
                     <h2 className="gradient__text2 leading-none pb-2" id="tmg">
                         • Generic Scheduler
@@ -148,9 +148,9 @@ export default function Work() {
                     <p className='pb-[100px]'>
                         Description: Generic Scheduler is the glue that makes all of our projects work.
                         It&apos;s a desktop app that we built to automate the fetching of relevant data from our clients&apos; systems and
-                        upload them to our cloud database.
-                        The app is cross platform and can be run on Windows, Linux and Mac.
-                        It is also capable of running multiple instances of itself and can be scheduled to run at a specific time.
+                        uploads them to our cloud database. It&apos;s the backbone of our service which makes it possible for us to provide real time analytics and reports.
+                        The app is cross platform and can be run on Windows, Linux and Mac, while also being able to support low spec machines.
+                        The scheduler app is also capable of running multiple instances of itself and can be scheduled to run at a specific time.
                     </p>
                     <div className='flex xl:flex-row justify-center items-center flex-col gap-10'>
                     </div>

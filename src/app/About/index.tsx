@@ -30,7 +30,7 @@ export default function About() {
                     </Fade>
                     <Fade triggerOnce direction="up" delay={800}>
                         <p className="text-2xl font-semibold">
-                            I am currently working as a <span className="gradient__text2">Software Engineer</span> at <span className="gradient__text2">Mosaic Solutions</span> for almost 2 years.
+                            I am currently working as a <span className="gradient__text2">Software Engineer</span> at <span className="gradient__text2">Mosaic Solutions</span> for 2 years.
                         </p>
                     </Fade>
                     <Fade triggerOnce direction="up" delay={1000}>
