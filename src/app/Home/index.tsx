@@ -99,17 +99,19 @@ export default function Home() {
                         </div>
                         <div className="flex gap-10 flex-col md:flex-row">
                             <Fade triggerOnce direction="up" delay={1000}>
+                                <div className="bg-[#3d71df] rounded-full">
+                                    <a href="#tmg">
+                                        <Image width={75} height={75}
+                                            className="rounded-full opacity-[0.85] border-[1.5px] border-[#3d71df] cursor-pointer min-w-[75px] min-h-[75px] hover:scale-110 transition duration-300 ease-in-out"
+                                            src="/tmg-logo.jpg" alt='tmg-logo' />
+                                    </a>
+                                </div>
+                            </Fade>
+                            <Fade triggerOnce direction="up" delay={1000}>
                                 <div className="bg-[#3d71df] rounded-full max-h-[75px] max-w-[75px] items-center">
                                     <Image width={75} height={75}
                                         className="rounded-full opacity-[0.85] border-[1.5px] border-[#3d71df] cursor-pointer min-w-[75px] min-h-[75px] hover:scale-110 transition duration-300 ease-in-out"
                                         src="/the-grid-logo.webp" alt='the-grid-logo' />
-                                </div>
-                            </Fade>
-                            <Fade triggerOnce direction="up" delay={1000}>
-                                <div className="bg-[#3d71df] rounded-full">
-                                    <Image width={75} height={75}
-                                        className="rounded-full opacity-[0.85] border-[1.5px] border-[#3d71df] cursor-pointer min-w-[75px] min-h-[75px] hover:scale-110 transition duration-300 ease-in-out"
-                                        src="/tmg-logo.jpg" alt='tmg-logo' />
                                 </div>
                             </Fade>
                         </div>
