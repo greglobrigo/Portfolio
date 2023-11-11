@@ -116,6 +116,42 @@ export default function Work() {
                         regarding their sales, inventory, and other data that they need to monitor on a daily basis.
                         We&apos;ve also created a web portal for them to view their data as well as download sales reports on demand.
                     </p>
+                    <h2 className="gradient__text2 leading-none pb-2" id="tmg">
+                        • Generic Scheduler
+                    </h2>
+                    <div className='flex flex-col xl:flex-row items-center gap-10'>
+                        <Image alt="scheduler1" src='/scheduler1.png' width={500} height={500}
+                            onClick={() => window.open('/scheduler1.png')}
+                            className='cursor-pointer hover:scale-110 transition duration-300 ease-in-out rounded-sm'
+                        />
+                        <Image alt="scheduler2" src='/scheduler2.png' width={500} height={500}
+                            className='cursor-pointer hover:scale-110 transition duration-300 ease-in-out rounded-sm border-[#e6e5eb6c]
+                            border-2'
+                            onClick={() => window.open('/scheduler2.png')}
+                        />
+                    </div>
+                    <p>
+                        Role: Co-Lead (Team of 2)
+                    </p>
+                    <p>
+                        Timeline: January 2023 - Present
+                    </p>
+                    <p>
+                        Project Type: Desktop App
+                    </p>
+                    <p>
+                        Tags: Desktop App, Scheduling, Automation, File Uploads
+                    </p>
+                    <p>
+                        Technologies: Object Pascal, Delphi, Lazarus
+                    </p>
+                    <p className='pb-[100px]'>
+                        Description: Generic Scheduler is the glue that makes all of our projects work.
+                        It&apos;s a desktop app that we built to automate the fetching of relevant data from our clients&apos; systems and
+                        upload them to our cloud database.
+                        The app is cross platform and can be run on Windows, Linux and Mac.
+                        It is also capable of running multiple instances of itself and can be scheduled to run at a specific time.
+                    </p>
                     <div className='flex xl:flex-row justify-center items-center flex-col gap-10'>
                     </div>
                 </div>

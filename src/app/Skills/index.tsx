@@ -196,7 +196,6 @@ export default function Skills() {
                     </ul>
                 </div>
                 <div className="skills__header-image flex-col">
-
                 </div>
             </div>
         </>
