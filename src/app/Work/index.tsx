@@ -71,7 +71,7 @@ export default function Work() {
                         Project Type: ETL, Automated Reports Generation
                     </p>
                     <p>
-                        Tags: ETL, Automated Reports Generation, Data Pipeline, Data Aggregation, Data Monitoring, Data Analytics, Data Visualization, Data Warehousing, Data Engineering
+                        Tags: ETL, Automated Reports Generation, Data Pipeline, Data Aggregation, Data Monitoring, Data Analytics, Data Engineering
                     </p>
                     <p>
                         Technologies: ExcelJS, MySQL, Node, Serverless, TypeORM, AWS Services
