@@ -55,7 +55,7 @@ export default function Work() {
                             onClick={() => window.open('/tmg-daily-monitoring.png')}
                             className='cursor-pointer hover:scale-110 transition duration-300 ease-in-out rounded-sm'
                         />
-                        <Image alt="tmg-end-of-day" src='/tmg-end-of-day.png' width={500} height={500} //add 1px border
+                        <Image alt="tmg-end-of-day" src='/tmg-end-of-day.png' width={500} height={500}
                             className='cursor-pointer hover:scale-110 transition duration-300 ease-in-out rounded-sm border-[#e6e5eb6c]
                             border-2'
                             onClick={() => window.open('/tmg-end-of-day.png')}
@@ -81,7 +81,7 @@ export default function Work() {
                         It&apos;s a data pipeline that we built for the Business Intelligence and operations team of TMG to monitor,
                         aggregate and automate sales reports across their 50+ stores nationwide on a daily basis.
                     </p>
-                    <h2 className="gradient__text2 leading-none" id="tmg">
+                    <h2 className="gradient__text2 leading-none pb-2" id="tmg">
                         • The Grid Food Market
                     </h2>
                     <div className='flex flex-col xl:flex-row items-center gap-10'>
