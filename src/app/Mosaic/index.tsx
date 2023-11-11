@@ -34,9 +34,9 @@ export default function Mosaic() {
                         <Fade triggerOnce direction='up'>
                             <a href="https://www.mosaic-solutions.com/" target="_blank" rel="noreferrer">
                                 <Image
-                                    height={500} width={500}
+                                    height={450} width={600}
                                     src="/mosaic-team2.jpg"
-                                    className='rounded-xl h-full min-w-[300px] min-h-[300px] hover:scale-105 transition duration-300 ease-in-out cursor-pointer'
+                                    className='rounded-xl h-full min-w-[300px] min-h-[200px] hover:scale-105 transition duration-300 ease-in-out cursor-pointer'
                                     alt="Mosaic2" />
                             </a>
                         </Fade>
