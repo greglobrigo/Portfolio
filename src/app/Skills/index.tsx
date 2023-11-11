@@ -106,6 +106,22 @@ export default function Skills() {
                             <li>
                                 <div className='flex items-center gap-4'>
                                     <h2 className="gradient__text2">
+                                        Pascal
+                                    </h2>
+                                    <Image width={50} height={50} className="w-[50px] h-[50px]" src="/pascal-logo.png" alt="pascal" />
+                                    <Image width={50} height={50} className="w-[50px] h-[50px]" src="/lazarus-logo.png" alt="lazarus" />
+                                </div>
+                                <p>
+                                    Pascal is the first desktop programming language I&apos;ve learned. I&apos;ve used it at work to extend the functionality of a legacy application that was built in Delphi.
+                                    While Pascal isn't considered a modern programming language, the bundle size of the executables it produces is very small, lightweight in terms of dependencies, and memory efficient, which is perfect for low spec machines.
+                                    Total years of exposure to Pascal is 2 years.
+                                </p>
+                            </li>
+                        </Fade>
+                        <Fade triggerOnce direction="up" delay={200}>
+                            <li>
+                                <div className='flex items-center gap-4'>
+                                    <h2 className="gradient__text2">
                                         Linux / WSL
                                     </h2>
                                     <Image width={50} height={50} className="w-[50px] h-[50px]" src="/linux.png" alt="linux" />
