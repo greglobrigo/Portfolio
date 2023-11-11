@@ -1,54 +1,71 @@
 "use client"
-import './work.css';
+import './personal.css';
 import { Fade } from 'react-awesome-reveal'
 import Image from 'next/image'
 
 
-export default function Work() {
+export default function PersonalProjects() {
     return (
         <>
-            <div className="work__header section__padding gradient__bg__left" id="work">
-                <div className="work__header-content">
+            <div className="personal__header section__padding gradient__bg__left" id="personal">
+                <div className="personal__header-content">
                     <Fade triggerOnce direction='up'>
-                        <h1 className="gradient__text pb-2" id="projects">Work Projects</h1>
+                        <h1 className="gradient__text pb-2" id="projects">Personal Projects</h1>
                     </Fade>
                     <h2 className="gradient__text2 pb-2" id="sm-sia">
-                        SM SIA
+                        Chatscape
                     </h2>
                     <div className='flex flex-col xl:flex-row items-center gap-10'>
-                        <Image alt="sm-login" src='/sia-login.png' width={500} height={500}
-                            onClick={() => window.open('/sia-login.png')}
+                        <Image alt="chatscape1" src='/chatscape1.png' width={500} height={500}
+                            onClick={() => window.open('/chatscape1.png')}
                             className='cursor-pointer hover:scale-110 transition duration-300 ease-in-out rounded-sm'
                         />
-                        <Image alt="sm-stg" src='/sia-stg.png' width={500} height={500}
+                        <Image alt="chatscape2" src='/chatscape2.png' width={500} height={500}
                             className='cursor-pointer hover:scale-110 transition duration-300 ease-in-out rounded-sm'
-                            onClick={() => window.open('/sia-stg.png')}
+                            onClick={() => window.open('/chatscape2.png')}
                         />
                     </div>
                     <p>
-                        Role: Fullstack Developer (Team of 10)
+                        Live Demo Link:
+                        <a href='https://chatscape-fe.vercel.app/home' target='_blank' rel="noreferrer">
+                            <span className='cursor-pointer hover:underline transition duration-300 ease-in-out hover:text-[#fb844d]'> Click Here</span>
+                        </a>
+                        <br />
+
+                        <a href='https://github.com/greglobrigo/Chatscape-BE' target='_blank' rel="noreferrer">
+                            Frontend Repository:
+                            <span className='cursor-pointer hover:underline transition duration-300 ease-in-out hover:text-[#fb844d]'> Click Here</span>
+                            <br />
+                        </a>
+                        <a href='https://github.com/greglobrigo/Chatscape-BE' target='_blank' rel="noreferrer">
+                            Backend Repository:
+                            <span className='cursor-pointer hover:underline transition duration-300 ease-in-out hover:text-[#fb844d]'> Click Here</span>
+                            <br />
+                        </a>
                     </p>
                     <p>
-                        Timeline: March 2022 December 2022
+                        Role: Fullstack Developer (Solo)
+                    </p>
+                    <p>
+                        Timeline: September 25, 2023 - Present
                     </p>
                     <p>
                         Project Type: Web App
                     </p>
                     <p>
-                       Tags: Web App, Analytics, Reports, Monitoring, Tenant Management, Sales Tracking, Big Data
+                        Tags: Web App, Websockets, Chat, Social Media, Real Time Messaging
                     </p>
                     <p>
-                        Technologies: VueJS, Nuxt, PHP, Laravel, Lumen, PostgreSQL, MySQL, Redis, Docker, Node, Serverless, AWS Services
+                        Technologies: ReactJS, NextJS, Websockets, Ruby on Rails, PostgreSQL, Vercel, Render
                     </p>
                     <p className='pb-[100px]'>
-                        Description: SIA is an all in one web app that we built for SM and is still being used by their accounting and operations team today.
-                        It&apos;s a web app that provides reports generation, analytics, sales tracking, monitoring, tenant management and other features for SM to use.
-                        It was the project that introduced me to data at scale or big data, as we had to build a system that can handle millions of transactions and still be able to provide
-                        real time analytics and reports.
+                        Description: ChatScape is a web app that I built to reinforce my knowledge on websockets and to improve my frontend skills.
+                        Features include: Registration with email confirmation, creation of group, public and direct chats, as well as real-time messaging.
                     </p>
-                    <h2 className="gradient__text2 leading-none pb-2" id="tmg">
-                        TMG
+                    {/* <h2 className="gradient__text2 leading-none" id="tmg">
+                        • The Moment Group (TMG)
                     </h2>
+                    <span className='font-semibold gradient__text2 text-lg xl:pl-10 pl-8 leading-none pb-8'>(OOMA, MANAM, DIN TAI FUNG, 8CUTS, MO COOKIES)</span>
                     <div className='flex flex-col xl:flex-row items-center gap-10'>
                         <Image alt="tmg-daily-monitoring" src='/tmg-daily-monitoring.png' width={500} height={500}
                             onClick={() => window.open('/tmg-daily-monitoring.png')}
@@ -81,7 +98,7 @@ export default function Work() {
                         visibility to the operations team of TMG on how their branches are performing on a daily basis.
                     </p>
                     <h2 className="gradient__text2 leading-none pb-2" id="tmg">
-                        The Grid
+                        • The Grid Food Market
                     </h2>
                     <div className='flex flex-col xl:flex-row items-center gap-10'>
                         <Image alt="the-grid-login" src='/thegrid-login.png' width={500} height={500}
@@ -116,7 +133,7 @@ export default function Work() {
                         We&apos;ve also created a portal for them to download sales reports on demand.
                     </p>
                     <h2 className="gradient__text2 leading-none pb-2" id="tmg">
-                        Generic Scheduler
+                        • Generic Scheduler
                     </h2>
                     <div className='flex flex-col xl:flex-row items-center gap-10'>
                         <Image alt="scheduler1" src='/scheduler1.png' width={500} height={500}
@@ -150,7 +167,7 @@ export default function Work() {
                         uploads them to our cloud database. It&apos;s the backbone of our service which makes it possible for us to provide real time analytics and reports.
                         The app is cross platform and can be run on Windows, Linux and Mac, while also being able to support low spec machines.
                         The scheduler app is also capable of running multiple instances of itself and can be scheduled to run at a specific time.
-                    </p>
+                    </p> */}
                     <div className='flex xl:flex-row justify-center items-center flex-col gap-10'>
                     </div>
                 </div>

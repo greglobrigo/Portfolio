@@ -3,6 +3,7 @@ import About from "./About";
 import Skills from "./Skills";
 import Mosaic from "./Mosaic";
 import Work from "./Work-Projects";
+import PersonalProjects from "./Personal-Projects";
 
 export default function Main() {
   return (
@@ -14,6 +15,7 @@ export default function Main() {
       <Skills />
       <Mosaic />
       <Work />
+      <PersonalProjects />
     </>
   )
 }
