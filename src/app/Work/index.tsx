@@ -74,7 +74,7 @@ export default function Work() {
                         Tags: ETL, Automated Reports Generation, Data Pipeline, Data Aggregation, Data Monitoring, Data Analytics, Data Visualization, Data Warehousing, Data Engineering
                     </p>
                     <p>
-                        Technologies: ExcelJS, PostgreSQL, Node, Serverless, TypeORM, AWS Services
+                        Technologies: ExcelJS, MySQL, Node, Serverless, TypeORM, AWS Services
                     </p>
                     <p>
                         Description: TMG Data IQ is a project that I&apos;m currently working on. It&apos;s a data pipeline that we built for the Business Intelligence and operations team of TMG to monitor, aggregate and automate sales reports across their 50+ stores nationwide on a daily basis.
