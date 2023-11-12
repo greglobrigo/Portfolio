@@ -179,9 +179,8 @@ export default function Work() {
                             Technologies: Object Pascal, Delphi, Lazarus
                         </p>
                         <p className='pb-[100px]'>
-                            Description: Generic Scheduler is the glue that makes all of our projects work.
-                            It&apos;s a desktop app that we built to automate the fetching of relevant data from our clients&apos; systems and
-                            uploads them to our cloud database. It&apos;s the backbone of our service which makes it possible for us to provide real time analytics and reports.
+                            Description: Generic Scheduler is a desktop app that we built to automate the fetching of relevant data from our clients&apos; systems and
+                            uploads them to our cloud database. It&apos;s an app that can run discreetly on the background.
                             The app is cross platform and can be run on Windows, Linux and Mac, while also being able to support low spec machines.
                             The scheduler app is also capable of running multiple instances of itself and can be scheduled to run at a specific time.
                         </p>
