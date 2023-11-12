@@ -32,7 +32,7 @@ export default function PersonalProjects() {
                         </a>
                         <br />
 
-                        <a href='https://github.com/greglobrigo/Chatscape-BE' target='_blank' rel="noreferrer">
+                        <a href='https://github.com/greglobrigo/Chatscape-FE' target='_blank' rel="noreferrer">
                             Frontend Repository:
                             <span className='cursor-pointer hover:underline transition duration-300 ease-in-out hover:text-[#fb844d]'> Click Here</span>
                             <br />
@@ -62,42 +62,53 @@ export default function PersonalProjects() {
                         Description: ChatScape is a web app that I built to reinforce my knowledge on websockets and to improve my frontend skills.
                         Features include: Registration with email confirmation, creation of group, public and direct chats, as well as real-time messaging.
                     </p>
-                    {/* <h2 className="gradient__text2 leading-none" id="tmg">
-                        • The Moment Group (TMG)
+                    <h2 className="gradient__text2 leading-none pb-2" id="tmg">
+                        Asus
                     </h2>
-                    <span className='font-semibold gradient__text2 text-lg xl:pl-10 pl-8 leading-none pb-8'>(OOMA, MANAM, DIN TAI FUNG, 8CUTS, MO COOKIES)</span>
                     <div className='flex flex-col xl:flex-row items-center gap-10'>
-                        <Image alt="tmg-daily-monitoring" src='/tmg-daily-monitoring.png' width={500} height={500}
-                            onClick={() => window.open('/tmg-daily-monitoring.png')}
+                        <Image alt="asus1" src='/asus1.png' width={500} height={500}
+                            onClick={() => window.open('/asus1.png')}
                             className='cursor-pointer hover:scale-110 transition duration-300 ease-in-out rounded-sm'
                         />
-                        <Image alt="tmg-end-of-day" src='/tmg-end-of-day.png' width={500} height={500}
+                        <Image alt="asus2" src='/asus2.png' width={500} height={500}
                             className='cursor-pointer hover:scale-110 transition duration-300 ease-in-out rounded-sm border-[#e6e5eb6c]
                             border-2'
-                            onClick={() => window.open('/tmg-end-of-day.png')}
+                            onClick={() => window.open('/asus2.png')}
                         />
                     </div>
                     <p>
-                        Role: Lead Developer (Team of 2)
+                        Live Demo Link:
+                        <a href='https://greglobrigo.github.io/Asus/' target='_blank' rel="noreferrer">
+                            <span className='cursor-pointer hover:underline transition duration-300 ease-in-out hover:text-[#fb844d]'> Click Here</span>
+                        </a>
+                        <br />
+
+                        <a href='https://github.com/greglobrigo/Asus' target='_blank' rel="noreferrer">
+                            Frontend Repository:
+                            <span className='cursor-pointer hover:underline transition duration-300 ease-in-out hover:text-[#fb844d]'> Click Here</span>
+                            <br />
+                        </a>
                     </p>
                     <p>
-                        Timeline: January 2023 - Present
+                        Role: Front End Developer (Solo)
                     </p>
                     <p>
-                        Project Type: ETL, Automated Reports Generation
+                        Timeline: December 21, 2021
                     </p>
                     <p>
-                        Tags: ETL, Automated Reports Generation, Data Pipeline, Data Aggregation, Data Monitoring, Data Analytics, Data Engineering
+                        Project Type: Landing Page
                     </p>
                     <p>
-                        Technologies: ExcelJS, MySQL, Node, Serverless, TypeORM, AWS Services
+                        Tags: Landing Page, Responsive Design, Branding
+                    </p>
+                    <p>
+                        Technologies: HTML, CSS, SCSS, Vanilla JS
                     </p>
                     <p className='pb-[100px]'>
-                        Description: TMG Data IQ is a data pipeline that we built for the Business Intelligence and operations team of TMG to automate
-                        the sales data collection, aggregation and report generation from their 50+ branches nationwide. Through reports, we&apos;re able to provide
-                        visibility to the operations team of TMG on how their branches are performing on a daily basis.
+                        Description: Being fond of Asus products, especially their ROG Laptop products, I decided to create a landing page for it.
+                        The page was made way back in 2021.
                     </p>
-                    <h2 className="gradient__text2 leading-none pb-2" id="tmg">
+                    {/* <h2 className="gradient__text2 leading-none pb-2" id="tmg">
                         • The Grid Food Market
                     </h2>
                     <div className='flex flex-col xl:flex-row items-center gap-10'>
