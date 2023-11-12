@@ -45,7 +45,7 @@ export default function Work() {
                             Tags: Web App, Analytics, Reports, Monitoring, Tenant Management, Sales Tracking, Big Data
                         </p>
                         <p>
-                            Technologies: VueJS, Nuxt, PHP, Laravel, Lumen, PostgreSQL, MySQL, Redis, Docker, Node, Serverless, AWS Services
+                            Technologies: VueJS, Nuxt, PHP, Typescript, Laravel, Lumen, PostgreSQL, MySQL, Redis, Docker, Node, Serverless, AWS Services
                         </p>
                         <p className='pb-[100px]'>
                             Description: SIA is an all in one web app that we built for SM and is still being used by their accounting and operations team today.
@@ -90,7 +90,7 @@ export default function Work() {
                             Tags: ETL, Automated Reports Generation, Data Pipeline, Data Aggregation, Data Monitoring, Data Analytics, Data Engineering
                         </p>
                         <p>
-                            Technologies: ExcelJS, MySQL, Node, Serverless, TypeORM, AWS Services
+                            Technologies: ExcelJS, Typescript, MySQL, Node, Serverless, TypeORM, AWS Services
                         </p>
                         <p className='pb-[100px]'>
                             Description: TMG Data IQ is a data pipeline that we built for the Business Intelligence and operations team of TMG to automate
@@ -132,7 +132,7 @@ export default function Work() {
                             Tags: Fullstack Development, Web App, ETL, Automated Reports Generation, Data Pipeline, Data Aggregation, Data Monitoring, Data Analytics, Data Engineering
                         </p>
                         <p>
-                            Technologies: ReactJS, NextJS, ExcelJS, PostgreSQL, Node, Serverless, TypeORM, AWS Services
+                            Technologies: ReactJS, NextJS, ExcelJS, PostgreSQL, Node, Typescript, Serverless, TypeORM, AWS Services
                         </p>
                         <p className='pb-[100px]'>
                             Description: Data IQ The Grid is another project that I&apos;m currently working on.
