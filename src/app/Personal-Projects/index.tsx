@@ -105,7 +105,7 @@ export default function PersonalProjects() {
                         Technologies: HTML, CSS, SCSS, Vanilla JS
                     </p>
                     <p className='pb-[100px]'>
-                        Description: Being fond of Asus products, especially their ROG Laptop products, I decided to create a landing page for it.
+                        Description: Being fond of Asus, especially their ROG Laptop products, I decided to create a landing page for it.
                         The page was made way back in 2021.
                     </p>
                     {/* <h2 className="gradient__text2 leading-none pb-2" id="tmg">
