@@ -120,7 +120,7 @@ export default function PersonalProjects() {
                         </p>
                         <p className='pb-[100px]'>
                             Description: A simple Kanban Board that I forked from a github repository and added some features to it such as editing of tasks,
-                            editing of priority, and adding search and reset functionality.
+                            deleting of tasks, editing of priority, and adding search and reset functionality.
                         </p>
                     </Fade>
                     <Fade triggerOnce direction='up' delay={200}>
