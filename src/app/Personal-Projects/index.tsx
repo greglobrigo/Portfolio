@@ -54,7 +54,7 @@ export default function PersonalProjects() {
                             Role: Fullstack Developer (Solo)
                         </p>
                         <p>
-                            Timeline: September 25, 2023 - Present
+                            Timeline: September 25, 2023
                         </p>
                         <p>
                             Project Type: Web App
@@ -68,6 +68,59 @@ export default function PersonalProjects() {
                         <p className='pb-[100px]'>
                             Description: ChatScape is a web app that I built to reinforce my knowledge on websockets and to improve my frontend skills.
                             Features include: Registration with email confirmation, creation of group, public and direct chats, as well as real-time messaging.
+                        </p>
+                    </Fade>
+                    <Fade triggerOnce direction='up' delay={200}>
+                        <h2 className="gradient__text2 pb-2" id="sm-sia">
+                            Kanban Board
+                        </h2>
+                    </Fade>
+                    <div className='flex flex-col xl:flex-row items-center gap-10'>
+                        <Fade triggerOnce direction='up' delay={200}>
+                            <Image alt="kanban1" src='/kanban1.png' width={500} height={500}
+                                onClick={() => window.open('/kanban1.png')}
+                                className='cursor-pointer hover:scale-110 transition duration-300 ease-in-out rounded-sm'
+                            />
+                        </Fade>
+                        <Fade triggerOnce direction='up' delay={200}>
+                            <Image alt="kanban2" src='/kanban2.png' width={500} height={500}
+                                className='cursor-pointer hover:scale-110 transition duration-300 ease-in-out rounded-sm'
+                                onClick={() => window.open('/kanban2.png')}
+                            />
+                        </Fade>
+                    </div>
+                    <Fade triggerOnce direction='up' delay={200}>
+                        <p>
+                            Live Demo Link:
+                            <a href='https://kanban-board-greglobrigo.vercel.app/' target='_blank' rel="noreferrer">
+                                <span className='cursor-pointer hover:underline transition duration-300 ease-in-out hover:text-[#fb844d]'> Click Here</span>
+                            </a>
+                            <br />
+
+                            <a href='https://github.com/greglobrigo/kanban-board' target='_blank' rel="noreferrer">
+                                Frontend Repository:
+                                <span className='cursor-pointer hover:underline transition duration-300 ease-in-out hover:text-[#fb844d]'> Click Here</span>
+                                <br />
+                            </a>
+                        </p>
+                        <p>
+                            Role: Frontend Developer (Solo)
+                        </p>
+                        <p>
+                            Timeline: November 13, 2023
+                        </p>
+                        <p>
+                            Project Type: Web App
+                        </p>
+                        <p>
+                            Tags: Web App, Project Management, Kanban Board
+                        </p>
+                        <p>
+                            Technologies: ReactJS, NextJS, TailWindCSS, Vercel
+                        </p>
+                        <p className='pb-[100px]'>
+                            Description: A simple Kanban Board that I forked from a github repository and added some features to it such as editing of tasks,
+                            editing of priority, and adding search and reset functionality.
                         </p>
                     </Fade>
                     <Fade triggerOnce direction='up' delay={200}>
