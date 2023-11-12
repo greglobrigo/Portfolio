@@ -71,7 +71,7 @@ export default function Contact() {
                                     <Image width={50} height={40} className="w-[50px] h-[40px] ml-1"
                                         src="/gmail.svg.png" alt="gmail" />
                                 </div>
-                                <p className='pb-4 hover:underline'>
+                                <p className='nn:pb-2 3xl:pb-[400px] hover:underline'>
                                     greglobrigojr@gmail.com
                                 </p>
                             </li>
