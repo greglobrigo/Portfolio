@@ -60,14 +60,14 @@ export default function PersonalProjects() {
                             Project Type: Web App
                         </p>
                         <p>
-                            Tags: Web App, Websockets, Chat, Social Media, Real Time Messaging
-                        </p>
-                        <p>
                             Technologies: ReactJS, NextJS, Typescript, Websockets, Ruby on Rails, PostgreSQL, Vercel, Render
                         </p>
-                        <p className='pb-[100px]'>
+                        <p>
                             Description: ChatScape is a web app that I built to reinforce my knowledge on websockets and to improve my frontend skills.
                             Features include: Registration with email confirmation, creation of group, public and direct chats, as well as real-time messaging.
+                        </p>
+                        <p className='pb-[100px]'>
+                            Tags: Web App, Websockets, Chat, Social Media, Real Time Messaging
                         </p>
                     </Fade>
                     <Fade triggerOnce direction='up' delay={200}>
@@ -113,14 +113,14 @@ export default function PersonalProjects() {
                             Project Type: Web App
                         </p>
                         <p>
-                            Tags: Web App, Project Management, Kanban Board
-                        </p>
-                        <p>
                             Technologies: ReactJS, NextJS, TailWindCSS, Vercel
                         </p>
-                        <p className='pb-[100px]'>
+                        <p>
                             Description: A simple Kanban Board that I forked from a github repository and added some features to it such as editing of tasks,
                             deleting of tasks, editing of priority, and adding search and reset functionality.
+                        </p>
+                        <p className='pb-[100px]'>
+                            Tags: Web App, Project Management, Kanban Board
                         </p>
                     </Fade>
                     <Fade triggerOnce direction='up' delay={200}>
@@ -167,14 +167,14 @@ export default function PersonalProjects() {
                             Project Type: Landing Page
                         </p>
                         <p>
-                            Tags: Landing Page, Responsive Design, Branding
-                        </p>
-                        <p>
                             Technologies: HTML, CSS, SCSS, Vanilla JS
                         </p>
-                        <p className='pb-[100px]'>
+                        <p>
                             Description: Being fond of Asus, especially their ROG Laptop products, I decided to create a landing page for it.
                             The page was made way back in 2021.
+                        </p>
+                        <p className='pb-[100px]'>
+                            Tags: Landing Page, Responsive Design, Branding
                         </p>
                     </Fade>
                     <Fade triggerOnce direction='up' delay={200}>
@@ -219,14 +219,14 @@ export default function PersonalProjects() {
                             Project Type: Game, Web App
                         </p>
                         <p>
-                            Tags: Game, Web App, TicTacToe
-                        </p>
-                        <p>
                             Technologies: HTML, CSS, Vanilla JS
                         </p>
-                        <p className='pb-[100px]'>
+                        <p>
                             Description: A simple TicTacToe game with a feature to track scores and move history after a match.
                             The app also has sound effects that you can toggle on and off.
+                        </p>
+                        <p className='pb-[100px]'>
+                            Tags: Game, Web App, TicTacToe
                         </p>
                     </Fade>
                     <div className='flex xl:flex-row justify-center items-center flex-col gap-10'>
