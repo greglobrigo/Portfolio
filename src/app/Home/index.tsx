@@ -33,9 +33,16 @@ export default function Home() {
                     </Fade>
                     <Fade triggerOnce direction="up" className="w-full">
                         <div className="home__header-content__input">
-                            <button className="cta__header-content__button button1" type="button">Learn More</button>
-                            <button className="cta__header-content__button button2" type="button">Hire Me</button>
-
+                            <button className="cta__header-content__button button1" type="button">
+                                <a href="#mosaic">
+                                    Learn More
+                                </a>
+                            </button>
+                            <button className="cta__header-content__button button2" type="button">
+                                <a href="#contact">
+                                    Hire Me
+                                </a>
+                            </button>
                         </div>
                     </Fade>
 
