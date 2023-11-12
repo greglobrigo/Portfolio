@@ -36,7 +36,7 @@ export default function Work() {
                             Role: Fullstack Developer (Team of 10)
                         </p>
                         <p>
-                            Timeline: March 2022 December 2022
+                            Timeline: March 2022 - December 2022
                         </p>
                         <p>
                             Project Type: Web App
