@@ -150,6 +150,11 @@ export default function PersonalProjects() {
                                 <span className='cursor-pointer hover:underline transition duration-300 ease-in-out hover:text-[#fb844d]'> Click Here</span>
                             </a>
                             <br />
+                            <a href='https://github.com/greglobrigo/TicTacToe' target='_blank' rel="noreferrer">
+                                Frontend Repository:
+                                <span className='cursor-pointer hover:underline transition duration-300 ease-in-out hover:text-[#fb844d]'> Click Here</span>
+                                <br />
+                            </a>
                         </p>
                         <p>
                             Role: Front End Developer (Solo)
