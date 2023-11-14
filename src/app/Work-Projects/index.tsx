@@ -99,7 +99,7 @@ export default function Work() {
                         </p>
                     </Fade>
                     <Fade triggerOnce direction='up' delay={200}>
-                        <h2 className="gradient__text2 leading-none pb-2" id="tmg">
+                        <h2 className="gradient__text2 leading-none pb-2" id="the-grid">
                             The Grid
                         </h2>
                     </Fade>
