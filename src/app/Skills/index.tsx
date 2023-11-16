@@ -64,7 +64,7 @@ export default function Skills() {
                                 </div>
                                 <p className='pb-4'>
                                     I&apos;ve been using Node.js for 3 years now. I have used it to build microservices and backend services.
-                                    In one of my recent projects, I have used Node.js to build an ETL (Extract, Transform, Load) service that is used to process data from a third party API.
+                                    In two of my recent projects, I have used Node.js to build an ETL (Extract, Transform, Load) service that is used to process data from a third party API.
                                     The service was built on an AWS Serverless architecture using AWS Lambda, AWS SQS, and AWS S3.
                                     What I really like about Node is the amount of libraries available to choose from. It&apos;s not difficult to find something that does what you need.
                                     From webscraping with Puppeteer, to building REST APIs with Express, to working with Excel files with ExcelJS.
