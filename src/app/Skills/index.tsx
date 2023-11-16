@@ -187,7 +187,7 @@ export default function Skills() {
                                     <Image width={50} height={50} className="w-[40px] h-[38px]" src="/css.png" alt="css" />
                                 </div>
                                 <p className='pb-4'>
-                                    I&apos;ve recently added Tailwind CSS to my skillset and is what I&apos;ve used to create this website. I&apos;ve been using HTML and CSS since I started.
+                                    I&apos;ve recently added Tailwind CSS to my skillset and it&apos;s what I&apos;ve used to create this website. I&apos;ve been using HTML and CSS since I started.
                                     Other CSS frameworks I&apos;m familiar with are SASS, Bootstrap, and Material UI.
                                     Total years of exposure to HTML and CSS is 3 years.
                                 </p>
