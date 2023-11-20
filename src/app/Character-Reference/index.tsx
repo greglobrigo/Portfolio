@@ -7,7 +7,7 @@ import Image from 'next/image'
 export default function CharacterReference() {
     return (
         <>
-            <div className="contact__header section__padding gradient__bg__left" id="character reference">
+            <div className="contact__header section__padding gradient__bg__left" id="character-reference">
                 <div className="contact__header-content">
                     <Fade triggerOnce direction='up' delay={200}>
                         <h1 className="gradient__text mb-2" id="projects">Character Reference</h1>
