@@ -5,6 +5,7 @@ import Mosaic from "./Mosaic";
 import Work from "./Work-Projects";
 import PersonalProjects from "./Personal-Projects";
 import Contact from "./Contact";
+import CharacterReference from "./Character-Reference";
 
 export default function Main() {
   return (
@@ -17,6 +18,7 @@ export default function Main() {
       <Mosaic />
       <Work />
       <PersonalProjects />
+      <CharacterReference />
       <Contact />
     </>
   )
