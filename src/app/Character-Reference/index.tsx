@@ -16,26 +16,9 @@ export default function CharacterReference() {
                         <Fade triggerOnce direction="up" delay={200}>
                             <li>
                                 <div className='flex items-center cursor-pointer hover:scale-105 transform transition duration-300 ease-in-out'>
-                                    <a href="https://www.linkedin.com/in/joseph-edward-gener-21460019/" target="_blank" rel="noreferrer">
-                                        <h2 className="gradient__text2">
-                                            1. Joseph Edward Gener
-                                        </h2>
-                                    </a>
-                                </div>
-                                <p>
-                                    VP of Engineering, Mosaic Solutions
-                                </p>
-                                <p className='pb-4'>
-                                    +(63) 917-817-0525
-                                </p>
-                            </li>
-                        </Fade>
-                        <Fade triggerOnce direction="up" delay={200}>
-                            <li>
-                                <div className='flex items-center cursor-pointer hover:scale-105 transform transition duration-300 ease-in-out'>
                                     <a href="https://www.linkedin.com/in/rustico-danan-iii-0b0b0b1a/" target="_blank" rel="noreferrer">
                                     <h2 className="gradient__text2">
-                                        2. Rustico Danan
+                                        1. Rustico Danan
                                     </h2>
                                     </a>
                                 </div>
@@ -52,7 +35,7 @@ export default function CharacterReference() {
                                 <div className='flex items-center cursor-pointer hover:scale-105 transform transition duration-300 ease-in-out'>
                                     <a href="https://www.linkedin.com/in/roland-james-gustillo-0b0b0b1a/" target="_blank" rel="noreferrer">
                                     <h2 className="gradient__text2">
-                                        3. Roland James Gustillo
+                                        2. Roland James Gustillo
                                     </h2>
                                     </a>
                                 </div>
@@ -68,7 +51,7 @@ export default function CharacterReference() {
                                 <div className='flex items-center cursor-pointer hover:scale-105 transform transition duration-300 ease-in-out'>
                                     <a href="https://www.linkedin.com/in/rodolfoborgonos/" target="_blank" rel="noreferrer">
                                     <h2 className="gradient__text2">
-                                        4. Rodolfo Borgonos Jr.
+                                        3. Rodolfo Borgonos Jr.
                                     </h2>
                                     </a>
                                 </div>
@@ -84,7 +67,7 @@ export default function CharacterReference() {
                                 <div className='flex items-center cursor-pointer hover:scale-105 transform transition duration-300 ease-in-out'>
                                     <a href="https://www.linkedin.com/in/peachadamos/" target="_blank" rel="noreferrer">
                                     <h2 className="gradient__text2">
-                                        5. Peach Adamos
+                                        4. Peach Adamos
                                     </h2>
                                     </a>
                                 </div>
