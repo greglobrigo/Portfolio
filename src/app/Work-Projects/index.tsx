@@ -78,10 +78,10 @@ export default function Work() {
                     <Fade triggerOnce direction='up' delay={200}>
 
                         <p>
-                            Role: Lead Developer (Team of 2)
+                            Role: Fullstack Developer (Team of 2)
                         </p>
                         <p>
-                            Timeline: January 2023 - Present
+                            Timeline: January 2023 - December 2023
                         </p>
                         <p>
                             Project Type: ETL, Automated Reports Generation
@@ -120,10 +120,10 @@ export default function Work() {
                     </div>
                     <Fade triggerOnce direction='up' delay={200}>
                         <p>
-                            Role: Lead Developer (Team of 2)
+                            Role: Fullstack Developer (Team of 2)
                         </p>
                         <p>
-                            Timeline: October 2023 - Present
+                            Timeline: October 2023 - December 2023
                         </p>
                         <p>
                             Project Type: Web App, ETL, Automated Reports Generation
@@ -164,10 +164,10 @@ export default function Work() {
                     </div>
                     <Fade triggerOnce direction='up' delay={200}>
                         <p>
-                            Role: Co-Lead (Team of 2)
+                            Role: Fullstack Developer (Team of 2)
                         </p>
                         <p>
-                            Timeline: January 2023 - Present
+                            Timeline: January 2023 - December 2023
                         </p>
                         <p>
                             Project Type: Desktop App

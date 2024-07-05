@@ -30,12 +30,12 @@ export default function About() {
                     </Fade>
                     <Fade triggerOnce direction="up" delay={800}>
                         <p className="text-2xl font-semibold">
-                            I am currently working as a <span className="gradient__text2">Software Engineer</span> at <span className="gradient__text2">Mosaic Solutions</span> for 2 years.
+                            I am currently working as a <span className="gradient__text2">Integrations Engineer</span> at <span className="gradient__text2">Sisu Real Estate</span>
                         </p>
                     </Fade>
                     <Fade triggerOnce direction="up" delay={1000}>
                         <p className="text-2xl font-semibold">
-                            I&apos;ve been progamming for 3 years, and have built and led projects
+                            I&apos;ve been progamming for 4 years, and have built and led projects
                             for companies such as <span className="gradient__text2">SM Supermalls</span>, <span className="gradient__text2">TMG (The Moment Group of Companies)</span> and <span className="gradient__text2">The Grid Food Market</span>
                         </p>
                     </Fade>
