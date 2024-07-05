@@ -68,7 +68,7 @@ export default function Home() {
                             </a>
                         </Fade>
                         <Fade triggerOnce direction="up" delay={1600}>
-                            <a href="https://twitter.com/greglobrigo"
+                            <a href="https://twitter.com/greg_lobrigo"
                                 target="_blank" rel="noopener noreferrer">
                                 <FaTwitter size={30} color="#4078c0"
                                     className="hover:scale-110 transition duration-300 ease-in-out"
