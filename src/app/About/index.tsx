@@ -24,7 +24,7 @@ export default function About() {
                     </Fade>
                     <Fade triggerOnce direction="up" delay={600}>
                         <p className="text-2xl font-semibold">
-                            Before getting into a developer role, I worked as a <span className="gradient__text2">Technical Support Representative</span> for <span className="gradient__text2">3 years,</span>
+                            Before getting into a developer role, I worked as a <span className="gradient__text2">Technical Support Representative</span> for <span className="gradient__text2">4 years,</span>
                             for companies such as <span className="gradient__text2">Lyft</span> and <span className="gradient__text2">Walmart</span>
                         </p>
                     </Fade>

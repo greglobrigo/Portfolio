@@ -29,7 +29,7 @@ export default function Skills() {
                                 </div>
 
                                 <p className='pb-4'>
-                                    I have been using Javascript and Typescript for 3 years. I have used them to build websites, web apps, and microservices together with Node.
+                                    I have been using Javascript and Typescript for 4 years. I have used them to build websites, web apps, and microservices together with Node.
                                     Javascript is my strongest language, and if ever I&apos;m given a problem that needs to be expressed in code, I&apos;d use Javascript. You can check my
                                     <span className="gradient__text3 text-2xl border-b-[1px] border-[#AE67FA] mx-2">
                                         <a href="https://www.codewars.com/users/gig4byte" target="_blank" rel="noopener noreferrer"> Codewars </a>
@@ -50,7 +50,7 @@ export default function Skills() {
                                 <p className='pb-4'>
                                     Vue and React are my go to frontend frameworks. Among the two, react is my favorite.
                                     While in my last role, I&apos;ve primarily dealt with backend services, I have also used React to build a few web apps.
-                                    React is the first frontend framework I&apos;ve learned and I have been using it for 3 years now. Cool tip, this website is built in React and Next.
+                                    React is the first frontend framework I&apos;ve learned and I have been using it for 4 years now. Cool tip, this website is built in React and Next.
                                 </p>
                             </li>
                         </Fade>
@@ -63,7 +63,7 @@ export default function Skills() {
                                     <Image width={50} height={50} className="w-[50px] h-[50px]" src="/nodejs.png" alt="node" />
                                 </div>
                                 <p className='pb-4'>
-                                    I&apos;ve been using Node.js for 3 years now. I have used it to build microservices and backend services.
+                                    I&apos;ve been using Node.js for 4 years now. I have used it to build microservices and backend services.
                                     In two of my recent projects, I have used Node.js to build an ETL (Extract, Transform, Load) service that is used to process data from a third party API.
                                     The service was built on an AWS Serverless architecture using AWS Lambda, AWS SQS, and AWS S3.
                                     What I really like about Node is the amount of libraries available to choose from. It&apos;s not difficult to find something that does what you need.
@@ -128,7 +128,7 @@ export default function Skills() {
                                     <Image width={50} height={50} className="w-[50px] h-[50px]" src="/ubuntu.png" alt="ubuntu" />
                                 </div>
                                 <p className='pb-4'>
-                                    I&apos;ve been using Linux via WSL (Windows Subsystem for Linux) for instantiating my development environment. The distro I&apos;m most familiar with is Ubuntu. Total years of exposure to Linux is 3 years.
+                                    I&apos;ve been using Linux via WSL (Windows Subsystem for Linux) for instantiating my development environment. The distro I&apos;m most familiar with is Ubuntu. Total years of exposure to Linux is 4 years.
                                 </p>
                             </li>
                         </Fade>
@@ -142,7 +142,7 @@ export default function Skills() {
                                     <Image width={50} height={50} className="w-[50px] h-[50px]" src="/psql.png" alt="postgresql" />
                                 </div>
                                 <p className='pb-4'>
-                                    Databases are a must for any web app. I have used MySQL and PostgreSQL for my projects. I have used PostgreSQL and MySQL interchangeably for 3 years.
+                                    Databases are a must for any web app. I have used MySQL and PostgreSQL for my projects. I have used PostgreSQL and MySQL interchangeably for 4 years.
                                 </p>
                             </li>
                         </Fade>
@@ -155,7 +155,7 @@ export default function Skills() {
                                     <Image width={50} height={50} className="w-[75px] h-[50px] mt-4" src="/aws.png" alt="aws services" />
                                 </div>
                                 <p className='pb-4'>
-                                    I&apos;ve been using AWS services for 3 years, it&apos;s the cloud provider I&apos;m most familiar with for deploying full stack applications, aside from Heroku.
+                                    I&apos;ve been using AWS services for 4 years, it&apos;s the cloud provider I&apos;m most familiar with for deploying full stack applications, aside from Heroku.
                                     I&apos;ve also used it to extend a serverless architecture for a project I was working on, as well as build a new ETL project from scratch.
                                     The services I&apos;ve frequently used are Cloudwatch, AWS Lambda, Cognito, AWS SQS, AWS S3, EC2, and RDS.
                                 </p>
@@ -173,7 +173,7 @@ export default function Skills() {
                                 <p className='pb-4'>
                                     Version control is a must for any developer. I&apos;ve been using Git and github since I started. I&apos;ve used it to collaborate with other developers on projects, as well as for personal projects.
                                     Other notable version control systems I&apos;ve used are Bitbucket and Gitlab.
-                                    Total years of exposure to Git and Github is 3 years.
+                                    Total years of exposure to Git and Github is 4 years.
                                 </p>
                             </li>
                         </Fade>
@@ -189,7 +189,7 @@ export default function Skills() {
                                 <p className='pb-4'>
                                     I&apos;ve recently added Tailwind CSS to my skillset and it&apos;s what I&apos;ve used to create this website. I&apos;ve been using HTML and CSS since I started.
                                     Other CSS frameworks I&apos;m familiar with are SASS, Bootstrap, and Material UI.
-                                    Total years of exposure to HTML and CSS is 3 years.
+                                    Total years of exposure to HTML and CSS is 4 years.
                                 </p>
                             </li>
                         </Fade>
