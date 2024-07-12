@@ -132,7 +132,7 @@ export default function Work() {
                             Technologies: ReactJS, NextJS, ExcelJS, PostgreSQL, Node, Typescript, Serverless, TypeORM, AWS Services
                         </p>
                         <p>
-                            Description: Data IQ The Grid is another project that I&apos;m currently working on.
+                            Description: Data IQ The Grid is another solo project that I worked on.
                             The web app provides visibility to the operations team of The Grid Food Market by providing them with real time sales status reports
                             with regards to their tenants and other data that they need to monitor on a daily basis.
                             We&apos;ve also created a portal for them to download sales reports on demand.
