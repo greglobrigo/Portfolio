@@ -33,7 +33,7 @@ export default function Navbar() {
             </Fade>
             <Fade triggerOnce direction="left" delay={2600}>
               <p onClick={downloadResume}>
-                <a href="#resume">Resume</a></p>
+                <a href="Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></p>
             </Fade>
           </div>
         </div>
