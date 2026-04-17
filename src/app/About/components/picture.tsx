@@ -15,20 +15,20 @@ export default function AboutPic() {
                         <div>
                             <div className="bg-[#3d71df] rounded-lg shadow-lg aws">
                                 <Image width={275} height={600}
-                                    className="w-auto h-auto opacity-80" src="/gym.jpg" alt="gym" />
+                                    className="w-auto h-auto opacity-80" src="/ninja.jpg" alt="gym" />
                             </div>
                             <div className="flex justify-center items-center pt-8">
-                                <p className="text-xl font-semibold gradient__text">Gym</p>
+                                <p className="text-xl font-semibold gradient__text">My Hobby</p>
                             </div>
                         </div>
                         :
                         <div>
                             <div className="bg-[#3d71df] rounded-lg shadow-lg aws">
                                 <Image width={275} height={600}
-                                    className="w-auto h-auto opacity-80" src="/aws.jpg" alt="aws training" />
+                                    className="w-auto h-auto opacity-80" src="/aws.jpg" alt="my picture" />
                             </div>
                             <div className="flex justify-center items-center pt-8">
-                                <p className="text-xl font-semibold gradient__text">AWS Training</p>
+                                <p className="text-xl font-semibold gradient__text">Me</p>
                             </div>
                         </div>
                 }
