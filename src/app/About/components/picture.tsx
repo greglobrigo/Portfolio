@@ -15,7 +15,7 @@ export default function AboutPic() {
                         <div>
                             <div className="bg-[#3d71df] rounded-lg shadow-lg aws">
                                 <Image width={275} height={600}
-                                    className="w-auto h-auto opacity-80" src="/ninja.jpg" alt="gym" />
+                                    className="w-auto h-auto opacity-80" src="/ninja.jpg" alt="my hobby" />
                             </div>
                             <div className="flex justify-center items-center pt-8">
                                 <p className="text-xl font-semibold gradient__text">My Hobby</p>
